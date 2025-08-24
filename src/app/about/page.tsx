@@ -6,7 +6,7 @@ import styles from "./about.module.css";
 export const metadata: Metadata = {
   title: "About Us - Courtesy Flushers",
   description:
-    "Learn about Courtesy Flushers, Maritime Canada's trusted portable sanitation company. Family-owned, locally operated, and committed to exceptional service.",
+    "Learn about Courtesy Flushers, Maritime Canada&apos;s trusted portable sanitation company. Family-owned, locally operated, and committed to exceptional service.",
 };
 
 export default function AboutPage() {
@@ -18,15 +18,15 @@ export default function AboutPage() {
           <div className={styles.heroContent}>
             <h1>About Courtesy Flushers</h1>
             <p className={styles.heroSubtitle}>
-              Maritime Canada's trusted partner for professional portable
+              Maritime Canada&apos;s trusted partner for professional portable
               sanitation solutions
             </p>
             <p className={styles.heroDescription}>
-              Since our founding, we've been committed to providing clean,
+              Since our founding, we&apos;ve been committed to providing clean,
               reliable, and courteous portable sanitation services across the
-              Maritime provinces. We're not just a rental company – we're your
-              neighbors, dedicated to serving our local communities with pride
-              and professionalism.
+              Maritime provinces. We&apos;re not just a rental company –
+              we&apos;re your neighbors, dedicated to serving our local
+              communities with pride and professionalism.
             </p>
           </div>
 
@@ -50,20 +50,21 @@ export default function AboutPage() {
                 <p>
                   Courtesy Flushers was born from a simple belief: everyone
                   deserves access to clean, dignified sanitation facilities, no
-                  matter where they are or what they're doing.
+                  matter where they are or what they&apos;re doing.
                 </p>
                 <p>
                   What started as a small local operation has grown into
-                  Maritime Canada's most trusted portable sanitation provider.
-                  Our growth has been built on word-of-mouth recommendations,
-                  repeat customers, and our unwavering commitment to courtesy
-                  and cleanliness.
+                  Maritime Canada&apos;s most trusted portable sanitation
+                  provider. Our growth has been built on word-of-mouth
+                  recommendations, repeat customers, and our unwavering
+                  commitment to courtesy and cleanliness.
                 </p>
                 <p>
                   Today, we serve construction sites, weddings, festivals, and
                   emergency situations across the Maritime provinces. But no
-                  matter how much we grow, we never forget our roots – we're
-                  still the local company that cares about our community.
+                  matter how much we grow, we never forget our roots –
+                  we&apos;re still the local company that cares about our
+                  community.
                 </p>
               </div>
               <div className={styles.storyStats}>
@@ -122,8 +123,8 @@ export default function AboutPage() {
                 <div className={styles.valueIcon}>⏰</div>
                 <h3>Reliable Service</h3>
                 <p>
-                  When we say we'll be there, we'll be there. On time, every
-                  time. Your schedule matters, and we never let you down.
+                  When we say we&apos;ll be there, we&apos;ll be there. On time,
+                  every time. Your schedule matters, and we never let you down.
                 </p>
               </div>
 
@@ -141,9 +142,9 @@ export default function AboutPage() {
                 <div className={styles.valueIcon}>🏠</div>
                 <h3>Community Focus</h3>
                 <p>
-                  As a local business, we're invested in our communities. We
-                  support local events, charities, and causes that matter to our
-                  neighbors.
+                  As a local business, we&apos;re invested in our communities.
+                  We support local events, charities, and causes that matter to
+                  our neighbors.
                 </p>
               </div>
 
@@ -151,9 +152,9 @@ export default function AboutPage() {
                 <div className={styles.valueIcon}>💪</div>
                 <h3>Continuous Improvement</h3>
                 <p>
-                  We're always looking for ways to serve you better, whether
-                  it's new equipment, better processes, or enhanced customer
-                  service.
+                  We&apos;re always looking for ways to serve you better,
+                  whether it&apos;s new equipment, better processes, or enhanced
+                  customer service.
                 </p>
               </div>
             </div>
@@ -194,7 +195,7 @@ export default function AboutPage() {
 
             <div className={styles.serviceAreasNote}>
               <p>
-                Don't see your area listed?{" "}
+                Don&apos;t see your area listed?{" "}
                 <Link href="/contact">Contact us</Link> – we may still be able
                 to serve you or help you find a trusted local provider.
               </p>

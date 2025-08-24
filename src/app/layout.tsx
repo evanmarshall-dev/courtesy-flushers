@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s | Courtesy Flushers",
   },
   description:
-    "Maritime Canada's premier portable toilet and sanitation rental service. Clean, reliable solutions for construction sites, special events, and more. Available 24/7.",
+    "Maritime Canada&apos;s premier portable toilet and sanitation rental service. Clean, reliable solutions for construction sites, special events, and more. Available 24/7.",
   keywords: [
     "portable toilets",
     "sanitation rental",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "Courtesy Flushers",
     title: "Courtesy Flushers - Professional Portable Sanitation Services",
     description:
-      "Maritime Canada's premier portable toilet and sanitation rental service. Clean, reliable solutions for construction sites, special events, and more.",
+      "Maritime Canada&apos;s premier portable toilet and sanitation rental service. Clean, reliable solutions for construction sites, special events, and more.",
     images: [
       {
         url: "/logo.svg",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Courtesy Flushers - Professional Portable Sanitation Services",
     description:
-      "Maritime Canada's premier portable toilet and sanitation rental service. Clean, reliable solutions for construction sites, special events, and more.",
+      "Maritime Canada&apos;s premier portable toilet and sanitation rental service. Clean, reliable solutions for construction sites, special events, and more.",
     images: ["/logo.svg"],
   },
   verification: {

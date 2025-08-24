@@ -68,8 +68,8 @@ export default function QuotePage() {
         <header className={styles.pageHeader}>
           <h1>Get Your Free Quote</h1>
           <p>
-            Tell us about your portable sanitation needs and we'll provide you
-            with a customized quote within 24 hours.
+            Tell us about your portable sanitation needs and we&apos;ll provide
+            you with a customized quote within 24 hours.
           </p>
         </header>
 
@@ -268,8 +268,8 @@ export default function QuotePage() {
                 <div className={styles.successMessage}>
                   <h3>Thank you for your quote request!</h3>
                   <p>
-                    We'll review your requirements and get back to you within 24
-                    hours with a detailed quote.
+                    We&apos;ll review your requirements and get back to you
+                    within 24 hours with a detailed quote.
                   </p>
                 </div>
               )}
@@ -287,7 +287,7 @@ export default function QuotePage() {
             <div className={styles.infoCard}>
               <h2>🚀 Fast Response</h2>
               <p>
-                We'll get back to you within 24 hours with a detailed quote
+                We&apos;ll get back to you within 24 hours with a detailed quote
                 tailored to your specific needs.
               </p>
             </div>
@@ -311,7 +311,7 @@ export default function QuotePage() {
             </div>
 
             <div className={styles.infoCard}>
-              <h2>✅ What's Included</h2>
+              <h2>✅ What&apos;s Included</h2>
               <ul>
                 <li>Free delivery and setup</li>
                 <li>Regular cleaning and maintenance</li>
@@ -324,7 +324,7 @@ export default function QuotePage() {
             <div className={styles.infoCard}>
               <h2>🏆 Why Choose Us?</h2>
               <ul>
-                <li>Maritime Canada's most trusted provider</li>
+                <li>Maritime Canada&apos;s most trusted provider</li>
                 <li>100% satisfaction guarantee</li>
                 <li>Eco-friendly cleaning products</li>
                 <li>Emergency services available</li>

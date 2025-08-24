@@ -28,7 +28,7 @@ export default function Home() {
             icon: "🚚",
             title: "Fast Delivery",
             description:
-              "Same-day or next-day delivery available. We're always on time, guaranteed.",
+              "Same-day or next-day delivery available. We&apos;re always on time, guaranteed.",
           },
           {
             icon: "✨",
@@ -128,9 +128,9 @@ export default function Home() {
               <div className={styles.whyChooseText}>
                 <h2>Why Choose Courtesy Flushers?</h2>
                 <p className={styles.whyChooseSubtitle}>
-                  We're not just another rental company. We're your neighbors,
-                  committed to providing exceptional service with Maritime
-                  hospitality.
+                  We&apos;re not just another rental company. We&apos;re your
+                  neighbors, committed to providing exceptional service with
+                  Maritime hospitality.
                 </p>
 
                 <div className={styles.whyChooseList}>
@@ -161,8 +161,8 @@ export default function Home() {
                     <div>
                       <h4>Personal Service</h4>
                       <p>
-                        Talk to real people, not robots. We're here 24/7 for
-                        support and emergencies.
+                        Talk to real people, not robots. We&apos;re here 24/7
+                        for support and emergencies.
                       </p>
                     </div>
                   </div>
@@ -221,9 +221,9 @@ export default function Home() {
               <div className={styles.testimonialCard}>
                 <div className={styles.testimonialStars}>⭐⭐⭐⭐⭐</div>
                 <blockquote>
-                  "We've used their construction services for over two years.
-                  Always on time, always clean, and their customer service is
-                  unmatched."
+                  "We&apos;ve used their construction services for over two
+                  years. Always on time, always clean, and their customer
+                  service is unmatched."
                 </blockquote>
                 <cite>— Mike D., Construction Foreman</cite>
               </div>
