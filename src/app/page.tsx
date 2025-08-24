@@ -1,4 +1,4 @@
-import Hero from "@/components/Hero";
+import Hero from "@/components/Hero/Hero";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.css";
@@ -19,36 +19,10 @@ export default function Home() {
           href: "/quote",
         }}
         secondaryCTA={{
-          text: "📞 Call Now",
+          text: "Call Now",
           href: "tel:+1-902-555-0123",
         }}
-        backgroundImage="/IMG_9976.jpeg"
-        features={[
-          {
-            icon: "🚚",
-            title: "Fast Delivery",
-            description:
-              "Same-day or next-day delivery available. We&apos;re always on time, guaranteed.",
-          },
-          {
-            icon: "✨",
-            title: "Pristine Clean",
-            description:
-              "Every unit is thoroughly sanitized and spotless. Your comfort is our priority.",
-          },
-          {
-            icon: "🛠️",
-            title: "24/7 Support",
-            description:
-              "Round-the-clock customer service and emergency support when you need it.",
-          },
-          {
-            icon: "🏆",
-            title: "Local Experts",
-            description:
-              "Maritime Canada specialists with years of local experience and knowledge.",
-          },
-        ]}
+        backgroundImage="/images/truck-toilet-rev.jpeg"
       />
 
       <main id="main-content">
@@ -188,11 +162,14 @@ export default function Home() {
 
               <div className={styles.whyChooseImage}>
                 <Image
-                  src="/IMG_9110.jpeg"
+                  src="/images/truck-tank-banner.jpeg"
                   alt="Clean portable toilet units ready for delivery"
                   width={500}
                   height={400}
                   className={styles.image}
+                  quality={85}
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                 />
               </div>
             </div>
@@ -209,41 +186,37 @@ export default function Home() {
 
             <div className={styles.testimonialsGrid}>
               <div className={styles.testimonialCard}>
-                <div className={styles.testimonialStars}>⭐⭐⭐⭐⭐</div>
                 <blockquote>
-                  &#34;Courtesy Flushers saved our wedding day! The luxury
-                  trailer was absolutely pristine and our guests were so
-                  impressed. Professional service from start to finish.&#34;
+                  &#34;Very dependable, honest, courteous, punctual, great
+                  communication either by phone, text or email. They will get
+                  back to you as soon as possible to ease your worries. Very
+                  clean work and will be mindful of your budget. Hands down my
+                  go to company.&#34;
                 </blockquote>
-                <cite>— Sarah M., Halifax</cite>
+                <div className={styles.testimonialFooter}>
+                  <div className={styles.testimonialStars}>⭐⭐⭐⭐⭐</div>
+                  <cite>— Mary L.</cite>
+                </div>
               </div>
 
               <div className={styles.testimonialCard}>
-                <div className={styles.testimonialStars}>⭐⭐⭐⭐⭐</div>
                 <blockquote>
-                  &#34;We&apos;ve used their construction services for over two
-                  years. Always on time, always clean, and their customer
-                  service is unmatched.&#34;
+                  &#34;Extremely friendly, reliable, efficient and honest
+                  customer service. Always my first call in need and my first
+                  recommendation for others. Highly recommend!&#34;
                 </blockquote>
-                <cite>— Mike D., Construction Foreman</cite>
-              </div>
-
-              <div className={styles.testimonialCard}>
-                <div className={styles.testimonialStars}>⭐⭐⭐⭐⭐</div>
-                <blockquote>
-                  &#34;Professional, courteous, and reliable. They went above
-                  and beyond to accommodate our event needs. Highly
-                  recommended!&#34;
-                </blockquote>
-                <cite>— Jennifer L., Event Coordinator</cite>
+                <div className={styles.testimonialFooter}>
+                  <div className={styles.testimonialStars}>⭐⭐⭐⭐⭐</div>
+                  <cite>— Matt P., Kentville</cite>
+                </div>
               </div>
             </div>
 
-            <div className={styles.testimonialsFooter}>
+            {/* <div className={styles.testimonialsFooter}>
               <Link href="/reviews" className={styles.allReviewsButton}>
                 Read All Reviews
               </Link>
-            </div>
+            </div> */}
           </div>
         </section>
 

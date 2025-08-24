@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import styles from "./about.module.css";
 
 export const metadata: Metadata = {
-  title: "About Us - Courtesy Flushers",
+  title: "About Us",
   description:
     "Learn about Courtesy Flushers, Maritime Canada&apos;s trusted portable sanitation company. Family-owned, locally operated, and committed to exceptional service.",
 };
@@ -32,11 +32,14 @@ export default function AboutPage() {
 
           <div className={styles.heroImage}>
             <Image
-              src="/IMG_9109.jpeg"
+              src="/images/truck-tank-banner.jpeg"
               alt="Courtesy Flushers team and equipment"
               width={600}
               height={400}
               className={styles.image}
+              quality={85}
+              placeholder="blur"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
             />
           </div>
         </section>

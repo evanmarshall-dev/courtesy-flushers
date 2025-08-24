@@ -1,8 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { Metadata } from "next";
+// import { Metadata } from "next";
 import styles from "./quote.module.css";
+
+// TODO: Figure out how to use metadata export in a client component.
+// export const metadata: Metadata = {
+//   title: "Get Quote",
+//   description:
+//     "Get a customized quote from Courtesy Flushers, Maritime Canada&apos;s trusted portable sanitation company.",
+// };
 
 export default function QuotePage() {
   const [formData, setFormData] = useState({

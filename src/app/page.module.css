@@ -207,13 +207,18 @@
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr;
+  justify-items: center;
 
+  /* Responsive grid that centers cards */
   @media (width >= 768px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(300px, 400px));
+    justify-content: center;
   }
 
   @media (width >= 1024px) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(320px, 380px));
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
 
@@ -223,6 +228,13 @@
   border-radius: 12px;
   box-shadow: var(--shadow-md);
   text-align: center;
+  width: 100%;
+  max-width: 400px;
+
+  /* Flexbox layout for consistent heights */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   blockquote {
     font-style: italic;
@@ -230,6 +242,11 @@
     line-height: 1.6;
     color: var(--color-text-secondary);
     margin: 1rem 0 1.5rem;
+
+    /* This will grow to fill available space, pushing stars and cite to bottom */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
   }
 
   cite {
@@ -241,7 +258,12 @@
 
 .testimonialStars {
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonialFooter {
+  margin-top: auto;
+  padding-top: 1rem;
 }
 
 .testimonialsFooter {

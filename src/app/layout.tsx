@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import "./globals.css";
+import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
+import "@/styles/globals.css";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -55,11 +55,11 @@ export const metadata: Metadata = {
     title: "Courtesy Flushers - Professional Portable Sanitation Services",
     description:
       "Maritime Canada&apos;s premier portable toilet and sanitation rental service. Clean, reliable solutions for construction sites, special events, and more.",
-    images: ["/logo.svg"],
+    images: ["https://courtesyflushers.ca/images/hero.jpeg"],
   },
-  verification: {
-    google: "your-google-verification-code",
-  },
+  // verification: {
+  //   google: "your-google-verification-code",
+  // },
 };
 
 export default function RootLayout({
@@ -71,7 +71,7 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <body>
         <div className="app">
-          <Header />
+          <Navbar />
           <main role="main">{children}</main>
           <Footer />
         </div>

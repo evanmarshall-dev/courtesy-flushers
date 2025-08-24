@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import styles from "./services.module.css";
 
 export const metadata: Metadata = {
-  title: "Our Services - Professional Portable Sanitation Solutions",
+  title: "Our Services",
   description:
     "Comprehensive portable toilet and sanitation rental services across Maritime Canada. From construction sites to luxury events, we have the perfect solution.",
 };
