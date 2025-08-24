@@ -40,7 +40,7 @@ export default function Hero({
             <div className={styles.badge}>
               <span className={styles.badgeIcon}>🚚</span>
               <span className={styles.badgeText}>
-                Maritime Canada's Premier Service
+                Maritime Canada&apos;s Premier Service
               </span>
             </div>
 
