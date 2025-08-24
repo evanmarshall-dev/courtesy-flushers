@@ -211,9 +211,9 @@ export default function Home() {
               <div className={styles.testimonialCard}>
                 <div className={styles.testimonialStars}>⭐⭐⭐⭐⭐</div>
                 <blockquote>
-                  "Courtesy Flushers saved our wedding day! The luxury trailer
-                  was absolutely pristine and our guests were so impressed.
-                  Professional service from start to finish."
+                  &#34;Courtesy Flushers saved our wedding day! The luxury
+                  trailer was absolutely pristine and our guests were so
+                  impressed. Professional service from start to finish.&#34;
                 </blockquote>
                 <cite>— Sarah M., Halifax</cite>
               </div>
@@ -221,9 +221,9 @@ export default function Home() {
               <div className={styles.testimonialCard}>
                 <div className={styles.testimonialStars}>⭐⭐⭐⭐⭐</div>
                 <blockquote>
-                  "We&apos;ve used their construction services for over two
+                  &#34;We&apos;ve used their construction services for over two
                   years. Always on time, always clean, and their customer
-                  service is unmatched."
+                  service is unmatched.&#34;
                 </blockquote>
                 <cite>— Mike D., Construction Foreman</cite>
               </div>
@@ -231,8 +231,9 @@ export default function Home() {
               <div className={styles.testimonialCard}>
                 <div className={styles.testimonialStars}>⭐⭐⭐⭐⭐</div>
                 <blockquote>
-                  "Professional, courteous, and reliable. They went above and
-                  beyond to accommodate our event needs. Highly recommended!"
+                  &#34;Professional, courteous, and reliable. They went above
+                  and beyond to accommodate our event needs. Highly
+                  recommended!&#34;
                 </blockquote>
                 <cite>— Jennifer L., Event Coordinator</cite>
               </div>
