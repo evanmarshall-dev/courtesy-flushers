@@ -164,6 +164,7 @@
   &:hover {
     background: #0a2580;
     border-color: #0a2580;
+    color: white;
   }
 }
 

@@ -12,8 +12,8 @@ export default function Home() {
 
       <Hero
         title="Courtesy Flushers"
-        subtitle="Courteous Service, Clean Solutions"
-        description="Maritime Canada's premier portable sanitation service. From construction sites to elegant weddings, we deliver pristine, reliable portable toilet solutions with exceptional customer service."
+        subtitle="Your Business is our Business"
+        description="Nova Scotia's premier portable sanitation service. From new home constructions to renovations and special events, we do it all! If you're building and waiting on a toilet, our portable restroom division can provide you with help in the short term with your construction."
         primaryCTA={{
           text: "Get Your Quote",
           href: "/quote",
@@ -39,56 +39,38 @@ export default function Home() {
                 <div className={styles.serviceIcon}>🚽</div>
                 <h3>Portable Toilets</h3>
                 <p>
-                  Standard and deluxe units, perfect for construction sites,
-                  events, and temporary needs. Clean, comfortable, and reliable.
+                  Our local company offers fast, efficient delivery of toilets
+                  to your site.
                 </p>
                 <Link
                   href="/services/portable-toilets"
                   className={styles.serviceLink}
                 >
-                  Learn More →
+                  Learn More
                 </Link>
               </div>
 
               <div className={styles.serviceCard}>
-                <div className={styles.serviceIcon}>✨</div>
-                <h3>Luxury Trailers</h3>
+                <div className={styles.serviceIcon}>🪠</div>
+                <h3>Plumbing</h3>
                 <p>
-                  Elegant restroom trailers for weddings, corporate events, and
-                  special occasions. Premium comfort and style.
+                  Plumbing for your new construction & renovations and even
+                  those pesky clogged pipes.
                 </p>
-                <Link
-                  href="/services/luxury-trailers"
-                  className={styles.serviceLink}
-                >
-                  Learn More →
+                <Link href="/services/plumbing" className={styles.serviceLink}>
+                  Learn More
                 </Link>
               </div>
 
               <div className={styles.serviceCard}>
-                <div className={styles.serviceIcon}>🏗️</div>
-                <h3>Construction Solutions</h3>
+                <div className={styles.serviceIcon}>👍</div>
+                <h3>Septic Services</h3>
                 <p>
-                  Long-term rentals, site planning, and regular maintenance for
-                  construction projects of all sizes.
+                  All your septic services in one place. Pumping, replacement,
+                  and installation.
                 </p>
-                <Link
-                  href="/services/construction"
-                  className={styles.serviceLink}
-                >
-                  Learn More →
-                </Link>
-              </div>
-
-              <div className={styles.serviceCard}>
-                <div className={styles.serviceIcon}>🎉</div>
-                <h3>Special Events</h3>
-                <p>
-                  Wedding rentals, festival services, and custom solutions for
-                  memorable occasions.
-                </p>
-                <Link href="/services/events" className={styles.serviceLink}>
-                  Learn More →
+                <Link href="/services/septic" className={styles.serviceLink}>
+                  Learn More
                 </Link>
               </div>
             </div>
@@ -96,22 +78,22 @@ export default function Home() {
         </section>
 
         {/* Why Choose Us Section */}
-        <section className={styles.whyChooseSection}>
+        <section id="why-choose-us" className={styles.whyChooseSection}>
           <div className="container">
             <div className={styles.whyChooseContent}>
               <div className={styles.whyChooseText}>
                 <h2>Why Choose Courtesy Flushers?</h2>
                 <p className={styles.whyChooseSubtitle}>
-                  We&apos;re not just another rental company. We&apos;re your
-                  neighbors, committed to providing exceptional service with
-                  Maritime hospitality.
+                  We&apos;re not just another sanitation company. We&apos;re
+                  your neighbours, committed to providing exceptional service
+                  with Maritime hospitality.
                 </p>
 
                 <div className={styles.whyChooseList}>
                   <div className={styles.whyChooseItem}>
                     <div className={styles.whyChooseIcon}>✅</div>
                     <div>
-                      <h4>Guaranteed On-Time Delivery</h4>
+                      <h4>Guaranteed Prompt Delivery</h4>
                       <p>
                         We arrive when promised, every time. Your schedule is
                         our priority.
@@ -135,8 +117,8 @@ export default function Home() {
                     <div>
                       <h4>Personal Service</h4>
                       <p>
-                        Talk to real people, not robots. We&apos;re here 24/7
-                        for support and emergencies.
+                        Talk to real people, not robots. We&apos;re here with
+                        reliable support and to handle emergencies.
                       </p>
                     </div>
                   </div>
@@ -181,7 +163,7 @@ export default function Home() {
           <div className="container">
             <div className={styles.sectionHeader}>
               <h2>What Our Customers Say</h2>
-              <p>Real experiences from real customers across Maritime Canada</p>
+              <p>Real experiences from real customers across Nova Scotia</p>
             </div>
 
             <div className={styles.testimonialsGrid}>
@@ -211,12 +193,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            {/* <div className={styles.testimonialsFooter}>
-              <Link href="/reviews" className={styles.allReviewsButton}>
-                Read All Reviews
-              </Link>
-            </div> */}
           </div>
         </section>
 
@@ -224,11 +200,10 @@ export default function Home() {
         <section className={styles.ctaSection}>
           <div className="container">
             <div className={styles.ctaContent}>
-              <h2>Ready to Experience the Courtesy Difference?</h2>
+              <h2>Ready to Experience the Courtesy Flushers Difference?</h2>
               <p>
-                Get your free quote today and discover why Maritime Canada
-                trusts Courtesy Flushers for all their portable sanitation
-                needs.
+                Get your free quote today and discover why Nova Scotia trusts
+                Courtesy Flushers for all their portable sanitation needs.
               </p>
 
               <div className={styles.ctaButtons}>
@@ -241,8 +216,8 @@ export default function Home() {
               </div>
 
               <p className={styles.ctaNote}>
-                Available 24/7 for emergencies • Same-day delivery available •
-                Serving all of Maritime Canada
+                Available for emergencies • Reliable delivery • Serving all of
+                Nova Scotia
               </p>
             </div>
           </div>

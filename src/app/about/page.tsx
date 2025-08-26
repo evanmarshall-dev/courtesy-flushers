@@ -43,9 +43,11 @@ export default function AboutPage() {
             />
           </div>
         </section>
+      </div>
 
-        {/* Our Story Section */}
-        <section className={styles.storySection}>
+      {/* Our Story Section - Full Width */}
+      <section className={styles.storySection}>
+        <div className="container">
           <div className={styles.sectionContent}>
             <h2>Our Story</h2>
             <div className={styles.storyGrid}>
@@ -90,8 +92,10 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <div className="container">
         {/* Our Values Section */}
         <section className={styles.valuesSection}>
           <div className={styles.sectionContent}>
@@ -163,9 +167,11 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
+      </div>
 
-        {/* Service Areas Section */}
-        <section className={styles.serviceAreasSection}>
+      {/* Service Areas Section - Full Width */}
+      <section className={styles.serviceAreasSection}>
+        <div className="container">
           <div className={styles.sectionContent}>
             <h2>Serving Maritime Canada</h2>
             <p className={styles.serviceAreasIntro}>
@@ -204,8 +210,10 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
+      <div className="container">
         {/* CTA Section */}
         <section className={styles.ctaSection}>
           <div className={styles.ctaContent}>

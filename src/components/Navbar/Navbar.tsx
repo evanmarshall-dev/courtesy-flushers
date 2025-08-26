@@ -15,13 +15,12 @@ export default function Navbar() {
       href: "/services",
       submenu: [
         { name: "Portable Toilets", href: "/services/portable-toilets" },
-        { name: "Luxury Trailers", href: "/services/luxury-trailers" },
-        { name: "Construction Solutions", href: "/services/construction" },
-        { name: "Special Events", href: "/services/events" },
+        { name: "Plumbing", href: "/services/plumbing" },
+        { name: "Septic Services", href: "/services/septic" },
       ],
     },
     { name: "About Us", href: "/about" },
-    { name: "Gallery", href: "/gallery" },
+    // { name: "Gallery", href: "/gallery" },
     { name: "Contact", href: "/contact" },
   ];
 

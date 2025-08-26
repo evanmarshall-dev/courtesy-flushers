@@ -20,11 +20,10 @@ export default function Footer() {
                 quality={100}
               />
             </div>
-            <p className={styles.tagline}>Courteous Service, Clean Solutions</p>
+            <p className={styles.tagline}>Your Business is our Business</p>
             <p className={styles.description}>
-              Serving Maritime Canada with reliable, professional portable
-              sanitation solutions for construction sites, special events, and
-              everything in between.
+              Nova Scotia's premier portable sanitation service. From new home
+              constructions to renovations and special events, we do it all!
             </p>
           </div>
 
@@ -38,18 +37,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/services/luxury-trailers" className={styles.link}>
-                  Luxury Trailers
+                <Link href="/services/plumbing" className={styles.link}>
+                  Plumbing
                 </Link>
               </li>
               <li>
-                <Link href="/services/construction" className={styles.link}>
-                  Construction Solutions
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/events" className={styles.link}>
-                  Special Events
+                <Link href="/services/septic" className={styles.link}>
+                  Septic Services
                 </Link>
               </li>
             </ul>
@@ -65,18 +59,13 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/why-us" className={styles.link}>
+                <Link href="/#why-choose-us" className={styles.link}>
                   Why Choose Us
                 </Link>
               </li>
               <li>
-                <Link href="/service-areas" className={styles.link}>
-                  Service Areas
-                </Link>
-              </li>
-              <li>
-                <Link href="/gallery" className={styles.link}>
-                  Gallery
+                <Link href="/contact#service-area" className={styles.link}>
+                  Service Area
                 </Link>
               </li>
             </ul>
@@ -109,7 +98,7 @@ export default function Footer() {
               </div>
               <div className={styles.contactItem}>
                 <strong>Service Area:</strong>
-                <span>Maritime Canada</span>
+                <span>Nova Scotia</span>
               </div>
             </div>
 
@@ -132,7 +121,12 @@ export default function Footer() {
             </p>
             <p className={styles.copyright}>
               Carefully crafted by{" "}
-              <a href="https://www.evanmarshall.dev" className={styles.link}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.evanmarshall.dev"
+                className={styles.link}
+              >
                 evanmarshall.dev
               </a>
             </p>

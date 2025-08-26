@@ -55,30 +55,30 @@ export default function ServicesPage() {
           </div>
 
           <div className={styles.serviceCard}>
-            <div className={styles.serviceImage}>✨</div>
+            <div className={styles.serviceImage}>🪠</div>
             <div className={styles.serviceContent}>
-              <h2>Luxury Restroom Trailers</h2>
+              <h2>Plumbing Services</h2>
               <p>
-                Elegant, spacious restroom trailers that provide comfort and
-                style for your special occasions.
+                Professional plumbing for new construction, renovations, and
+                repairs. Local knowledge with modern industry expertise.
               </p>
 
               <ul className={styles.serviceFeatures}>
-                <li>Climate-controlled interiors</li>
-                <li>Running water and flushing toilets</li>
-                <li>Luxury finishes and lighting</li>
-                <li>Perfect for weddings and events</li>
+                <li>New construction plumbing</li>
+                <li>Bathroom & kitchen renovations</li>
+                <li>Drain cleaning and repairs</li>
+                <li>Emergency plumbing services</li>
               </ul>
 
               <div className={styles.serviceActions}>
                 <Link
-                  href="/services/luxury-trailers"
+                  href="/services/plumbing"
                   className={styles.primaryButton}
                 >
                   Learn More
                 </Link>
                 <Link
-                  href="/quote?service=luxury-trailers"
+                  href="/quote?service=plumbing"
                   className={styles.secondaryButton}
                 >
                   Get Quote
@@ -90,58 +90,25 @@ export default function ServicesPage() {
           <div className={styles.serviceCard}>
             <div className={styles.serviceImage}>🏗️</div>
             <div className={styles.serviceContent}>
-              <h2>Construction Solutions</h2>
+              <h2>Septic Services</h2>
               <p>
-                Comprehensive sanitation solutions designed specifically for
-                construction and industrial sites.
+                Complete septic solutions from pumping to installations.
+                Licensed and insured septic professionals.
               </p>
 
               <ul className={styles.serviceFeatures}>
-                <li>Long-term rental packages</li>
-                <li>Site planning and consultation</li>
-                <li>Regular servicing schedules</li>
-                <li>Bulk pricing for multiple units</li>
+                <li>Septic pumping and maintenance</li>
+                <li>Septic field pump replacement</li>
+                <li>New septic installations</li>
+                <li>System inspections and repairs</li>
               </ul>
 
               <div className={styles.serviceActions}>
-                <Link
-                  href="/services/construction"
-                  className={styles.primaryButton}
-                >
+                <Link href="/services/septic" className={styles.primaryButton}>
                   Learn More
                 </Link>
                 <Link
-                  href="/quote?service=construction"
-                  className={styles.secondaryButton}
-                >
-                  Get Quote
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.serviceCard}>
-            <div className={styles.serviceImage}>🎉</div>
-            <div className={styles.serviceContent}>
-              <h2>Special Events</h2>
-              <p>
-                Custom portable sanitation solutions for weddings, festivals,
-                and special occasions of all sizes.
-              </p>
-
-              <ul className={styles.serviceFeatures}>
-                <li>Wedding and party rentals</li>
-                <li>Festival and fair services</li>
-                <li>Corporate event solutions</li>
-                <li>Custom delivery and setup</li>
-              </ul>
-
-              <div className={styles.serviceActions}>
-                <Link href="/services/events" className={styles.primaryButton}>
-                  Learn More
-                </Link>
-                <Link
-                  href="/quote?service=events"
+                  href="/quote?service=septic"
                   className={styles.secondaryButton}
                 >
                   Get Quote

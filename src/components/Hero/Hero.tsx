@@ -37,13 +37,6 @@ export default function Hero({
         {/* Text Content Side */}
         <div className={styles.textSide}>
           <div className={styles.textContent}>
-            <div className={styles.badge}>
-              <span className={styles.badgeIcon}>🚚</span>
-              <span className={styles.badgeText}>
-                Maritime Canada&apos;s Premier Service
-              </span>
-            </div>
-
             <h1 className={styles.title}>{title}</h1>
             <p className={styles.subtitle}>{subtitle}</p>
             <p className={styles.description}>{description}</p>
@@ -63,7 +56,7 @@ export default function Hero({
               <div className={styles.ctaFooter}>
                 <div className={styles.ctaNote}>
                   <span className={styles.checkmark}>✅</span>
-                  <span>Free Quotes • Same-Day Delivery • 24/7 Support</span>
+                  <span>Free Quotes • Fast Delivery • Reliable Support</span>
                 </div>
               </div>
             </div>
