@@ -68,9 +68,9 @@ export default function SepticServicesPage() {
                       Time to pump that ole septic tank in the backyard, every
                       2-4 years depending on the size of your household. Wipes &
                       quilted toilet paper may be good on the tushy, but those
-                      items are bad for your septic. Don't let an overfull tank
-                      ruin your day or your long weekend plan, schedule us to
-                      pump your tank today.
+                      items are bad for your septic. Don&apos;t let an overfull
+                      tank ruin your day or your long weekend plan, schedule us
+                      to pump your tank today.
                     </p>
                     <ul>
                       <li>Residential septic pumping</li>
@@ -101,7 +101,7 @@ export default function SepticServicesPage() {
                     <p>
                       New house, failed field, crumbling tank, then allow us to
                       work with you, our highly talented partners to come up
-                      with resolutions to make your property's health a
+                      with resolutions to make your property&apos;s health a
                       priority.
                     </p>
                     <ul>
@@ -134,8 +134,8 @@ export default function SepticServicesPage() {
               <div className={styles.sidebarCard}>
                 <h3>Emergency Service</h3>
                 <p>
-                  Septic emergencies can't wait. We provide emergency septic
-                  services to get your system back up and running.
+                  Septic emergencies can&apos;t wait. We provide emergency
+                  septic services to get your system back up and running.
                 </p>
                 <a
                   href="tel:+1-902-555-0123"
@@ -157,8 +157,8 @@ export default function SepticServicesPage() {
               <div className={styles.sidebarCard}>
                 <h3>Schedule Your Service</h3>
                 <p>
-                  Don't wait until it's too late. Schedule your septic pumping
-                  or inspection today.
+                  Don&apos;t wait until it&apos;s too late. Schedule your septic
+                  pumping or inspection today.
                 </p>
                 <div className={styles.sidebarActions}>
                   <Link href="/quote" className={styles.primaryButton}>
@@ -221,9 +221,9 @@ export default function SepticServicesPage() {
 
               <div className={septicStyles.maintenanceTips}>
                 <div className={septicStyles.tipCard}>
-                  <h4>❌ Don't Flush These Items</h4>
+                  <h4>❌ Don&apos;t Flush These Items</h4>
                   <ul>
-                    <li>Wipes (even "flushable" ones)</li>
+                    <li>Wipes (even &#34;flushable&#34; ones)</li>
                     <li>Feminine hygiene products</li>
                     <li>Medications</li>
                     <li>Chemicals and harsh cleaners</li>
@@ -258,7 +258,7 @@ export default function SepticServicesPage() {
                 Wipes & quilted toilet paper may be good on the tushy, but those
                 items are bad for your septic.
               </strong>{" "}
-              Don't let an overfull tank ruin your day or your long weekend
+              Don&apos;t let an overfull tank ruin your day or your long weekend
               plans. Schedule us to pump your tank today!
             </p>
           </div>
@@ -269,8 +269,8 @@ export default function SepticServicesPage() {
           <div className={styles.ctaContent}>
             <h2>Protect Your Property with Professional Septic Services</h2>
             <p>
-              Don't let septic problems disrupt your life. Contact us today for
-              reliable, professional septic services across Nova Scotia.
+              Don&apos;t let septic problems disrupt your life. Contact us today
+              for reliable, professional septic services across Nova Scotia.
             </p>
             <div className={styles.ctaButtons}>
               <Link href="/quote?service=septic" className={styles.ctaPrimary}>

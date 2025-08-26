@@ -30,12 +30,12 @@ export default function PrivacyPolicyPage() {
           <section className={styles.section}>
             <h2>Introduction</h2>
             <p>
-              Courtesy Flushers Inc. ("we," "our," or "us") is committed to
-              protecting your privacy. This Privacy Policy explains how we
-              collect, use, disclose, and safeguard your information when you
-              visit our website, use our services, or interact with us in
-              connection with our portable toilet rentals, plumbing services,
-              and septic system maintenance.
+              Courtesy Flushers Inc. (&#34;we,&#34; &#34;our,&#34; or
+              &#34;us&#34;) is committed to protecting your privacy. This
+              Privacy Policy explains how we collect, use, disclose, and
+              safeguard your information when you visit our website, use our
+              services, or interact with us in connection with our portable
+              toilet rentals, plumbing services, and septic system maintenance.
             </p>
             <p>
               Please read this Privacy Policy carefully. By using our services
@@ -231,9 +231,9 @@ export default function PrivacyPolicyPage() {
             <h2>Changes to This Privacy Policy</h2>
             <p>
               We may update this Privacy Policy from time to time. When we make
-              changes, we will update the "Last Updated" date at the top of this
-              page. We encourage you to review this policy periodically to stay
-              informed about how we protect your information.
+              changes, we will update the &#34;Last Updated&#34; date at the top
+              of this page. We encourage you to review this policy periodically
+              to stay informed about how we protect your information.
             </p>
             <p>
               Significant changes will be communicated through our website or

@@ -17,7 +17,7 @@ export default function ContactPage() {
         <header className={styles.pageHeader}>
           <h1>Contact Us</h1>
           <p>
-            Get in touch with Nova Scotia's premier portable sanitation and
+            Get in touch with Nova Scotia&apos;s premier portable sanitation and
             plumbing service
           </p>
         </header>
@@ -31,8 +31,8 @@ export default function ContactPage() {
                 <h2>Get In Touch</h2>
                 <p>
                   Courtesy Flushers Inc is a proudly owned family business
-                  situated in the beautiful Annapolis Valley. We're here for all
-                  your drainage and water solutions across Nova Scotia.
+                  situated in the beautiful Annapolis Valley. We&apos;re here
+                  for all your drainage and water solutions across Nova Scotia.
                 </p>
 
                 <div className={styles.contactDetails}>
@@ -60,7 +60,7 @@ export default function ContactPage() {
                       >
                         info@courtesyflushers.ca
                       </a>
-                      <p>We'll get back to you within 24 hours</p>
+                      <p>We&apos;ll get back to you within 24 hours</p>
                     </div>
                   </div>
 
@@ -89,8 +89,8 @@ export default function ContactPage() {
               <div className={styles.emergencyCard}>
                 <h3>Emergency Service</h3>
                 <p>
-                  Plumbing and septic emergencies don't wait for business hours.
-                  Call us anytime for urgent issues.
+                  Plumbing and septic emergencies don&apos;t wait for business
+                  hours. Call us anytime for urgent issues.
                 </p>
                 <a
                   href="tel:+1-902-555-0123"
@@ -106,8 +106,8 @@ export default function ContactPage() {
               <div className={styles.formCard}>
                 <h2>Send Us a Message</h2>
                 <p>
-                  Ready to get started? Fill out the form below and we'll get
-                  back to you with a free quote.
+                  Ready to get started? Fill out the form below and we&apos;ll
+                  get back to you with a free quote.
                 </p>
 
                 <form className={styles.form}>

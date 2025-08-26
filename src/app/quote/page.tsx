@@ -62,7 +62,7 @@ export default function QuotePage() {
         quantity: "1",
         message: "",
       });
-    } catch (error) {
+    } catch {
       setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);

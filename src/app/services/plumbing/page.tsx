@@ -130,8 +130,8 @@ export default function PlumbingPage() {
               <div className={styles.sidebarCard}>
                 <h3>Emergency Plumbing</h3>
                 <p>
-                  Plumbing emergencies don't wait for business hours. We provide
-                  emergency services to get your water flowing again.
+                  Plumbing emergencies don&apos;t wait for business hours. We
+                  provide emergency services to get your water flowing again.
                 </p>
                 <a
                   href="tel:+1-902-555-0123"
@@ -245,7 +245,7 @@ export default function PlumbingPage() {
           <div className={styles.ctaContent}>
             <h2>Ready to Start Your Plumbing Project?</h2>
             <p>
-              Whether it's a new installation, renovation, or repair, our
+              Whether it&apos;s a new installation, renovation, or repair, our
               experienced team is here to help create your perfect space.
             </p>
             <div className={styles.ctaButtons}>

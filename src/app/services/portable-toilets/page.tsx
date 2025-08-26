@@ -67,7 +67,7 @@ export default function PortableToiletsPage() {
                     <h3>🎉 Weddings & Special Events</h3>
                     <p>
                       Keep your special day memorable for all the right reasons.
-                      Our clean, well-maintained units ensure your guests'
+                      Our clean, well-maintained units ensure your guests&apos;
                       comfort without being a distraction from your celebration.
                     </p>
                   </div>

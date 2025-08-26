@@ -22,8 +22,9 @@ export default function Footer() {
             </div>
             <p className={styles.tagline}>Your Business is our Business</p>
             <p className={styles.description}>
-              Nova Scotia's premier portable sanitation service. From new home
-              constructions to renovations and special events, we do it all!
+              Nova Scotia&apos;s premier portable sanitation service. From new
+              home constructions to renovations and special events, we do it
+              all!
             </p>
           </div>
 

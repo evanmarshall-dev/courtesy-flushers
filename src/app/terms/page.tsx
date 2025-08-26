@@ -31,10 +31,11 @@ export default function TermsOfServicePage() {
             <h2>Acceptance of Terms</h2>
             <p>
               By accessing and using the services provided by Courtesy Flushers
-              Inc. ("Company," "we," "our," or "us"), including portable toilet
-              rentals, plumbing services, and septic system maintenance, you
-              ("Customer," "you," or "your") agree to be bound by these Terms of
-              Service ("Terms").
+              Inc. (&#34;Company,&#34; &#34;we,&#34; &#34;our,&#34; or
+              &#34;us&#34;), including portable toilet rentals, plumbing
+              services, and septic system maintenance, you (&#34;Customer,&#34;
+              &#34;you,&#34; or &#34;your&#34;) agree to be bound by these Terms
+              of Service (&#34;Terms&#34;).
             </p>
             <p>
               If you do not agree to these Terms, please do not use our services
