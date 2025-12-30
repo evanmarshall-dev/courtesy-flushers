@@ -1,24 +1,24 @@
-import Link from "next/link";
-import Image from "next/image";
-import { Metadata } from "next";
-import styles from "../service-detail.module.css";
-import plumbingStyles from "./plumbing.module.css";
+import Link from 'next/link';
+import Image from 'next/image';
+import { Metadata } from 'next';
+import styles from '../service-detail.module.css';
+import plumbingStyles from './plumbing.module.css';
 
 export const metadata: Metadata = {
-  title: "Plumbing Services | Courtesy Flushers",
+  title: 'Plumbing Services | Courtesy Flushers',
   description:
-    "Expert plumbing services for new construction, renovations, and repairs across Nova Scotia. Local knowledge with modern industry expertise.",
+    'Expert plumbing services for new construction, renovations, and repairs across Nova Scotia. Local knowledge with modern industry expertise.',
 };
 
 export default function PlumbingPage() {
   return (
     <div className={styles.serviceDetailPage}>
-      <div className="container">
+      <div className='container'>
         {/* Breadcrumb */}
         <nav className={styles.breadcrumb}>
-          <Link href="/">Home</Link>
+          <Link href='/'>Home</Link>
           <span className={styles.separator}>→</span>
-          <Link href="/services">Services</Link>
+          <Link href='/services'>Services</Link>
           <span className={styles.separator}>→</span>
           <span>Plumbing</span>
         </nav>
@@ -26,8 +26,8 @@ export default function PlumbingPage() {
         {/* Hero Section */}
         <header className={plumbingStyles.plumbingHero}>
           <Image
-            src="/images/truck-tank-banner.jpeg"
-            alt="Professional plumbing service truck ready for work"
+            src='/images/truck-tank-banner.jpeg'
+            alt='Professional plumbing service truck ready for work'
             fill
             className={plumbingStyles.plumbingHeroImage}
             quality={85}
@@ -105,7 +105,7 @@ export default function PlumbingPage() {
                       <li>Drain cleaning and unclogging</li>
                       <li>Pipe repair and replacement</li>
                       <li>Leak detection and repair</li>
-                      <li>Emergency plumbing services</li>
+                      {/* <li>Emergency plumbing services</li> */}
                     </ul>
                   </div>
 
@@ -127,7 +127,7 @@ export default function PlumbingPage() {
             </div>
 
             <div className={styles.sidebar}>
-              <div className={styles.sidebarCard}>
+              {/* <div className={styles.sidebarCard}>
                 <h3>Emergency Plumbing</h3>
                 <p>
                   Plumbing emergencies don&apos;t wait for business hours. We
@@ -139,7 +139,7 @@ export default function PlumbingPage() {
                 >
                   🚨 Emergency: (902) 555-0123
                 </a>
-              </div>
+              </div> */}
 
               <div className={styles.sidebarCard}>
                 <h3>Our Service Promise</h3>
@@ -160,10 +160,10 @@ export default function PlumbingPage() {
                   consultation and quote.
                 </p>
                 <div className={styles.sidebarActions}>
-                  <Link href="/quote" className={styles.primaryButton}>
+                  <Link href='/quote' className={styles.primaryButton}>
                     Get Free Quote
                   </Link>
-                  <Link href="/contact" className={styles.secondaryButton}>
+                  <Link href='/contact' className={styles.secondaryButton}>
                     Contact Us
                   </Link>
                 </div>
@@ -174,7 +174,7 @@ export default function PlumbingPage() {
 
         {/* Plumbing Specialties Section - Full Width */}
         <section className={plumbingStyles.specialtiesSection}>
-          <div className="container">
+          <div className='container'>
             <div className={plumbingStyles.specialtiesHeader}>
               <h2>Our Plumbing Specialties</h2>
               <p>
@@ -250,12 +250,12 @@ export default function PlumbingPage() {
             </p>
             <div className={styles.ctaButtons}>
               <Link
-                href="/quote?service=plumbing"
+                href='/quote?service=plumbing'
                 className={styles.ctaPrimary}
               >
                 Get Your Quote
               </Link>
-              <a href="tel:+1-902-555-0123" className={styles.ctaSecondary}>
+              <a href='tel:+1-902-555-0123' className={styles.ctaSecondary}>
                 📞 Call (902) 555-0123
               </a>
             </div>

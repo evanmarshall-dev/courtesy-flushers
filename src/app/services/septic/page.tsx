@@ -1,24 +1,24 @@
-import Link from "next/link";
-import Image from "next/image";
-import { Metadata } from "next";
-import styles from "../service-detail.module.css";
-import septicStyles from "./septic.module.css";
+import Link from 'next/link';
+import Image from 'next/image';
+import { Metadata } from 'next';
+import styles from '../service-detail.module.css';
+import septicStyles from './septic.module.css';
 
 export const metadata: Metadata = {
-  title: "Septic Services | Courtesy Flushers",
+  title: 'Septic Services | Courtesy Flushers',
   description:
-    "Complete septic services across Nova Scotia: pumping, installations, pump replacements, and maintenance. Serving residential and commercial clients.",
+    'Complete septic services across Nova Scotia: pumping, installations, pump replacements, and maintenance. Serving residential and commercial clients.',
 };
 
 export default function SepticServicesPage() {
   return (
     <div className={styles.serviceDetailPage}>
-      <div className="container">
+      <div className='container'>
         {/* Breadcrumb */}
         <nav className={styles.breadcrumb}>
-          <Link href="/">Home</Link>
+          <Link href='/'>Home</Link>
           <span className={styles.separator}>→</span>
-          <Link href="/services">Services</Link>
+          <Link href='/services'>Services</Link>
           <span className={styles.separator}>→</span>
           <span>Septic Services</span>
         </nav>
@@ -26,8 +26,8 @@ export default function SepticServicesPage() {
         {/* Hero Section */}
         <header className={septicStyles.septicHero}>
           <Image
-            src="/images/truck-banner.jpeg"
-            alt="Professional septic service truck ready for work"
+            src='/images/truck-banner.jpeg'
+            alt='Professional septic service truck ready for work'
             fill
             className={septicStyles.septicHeroImage}
             quality={85}
@@ -76,7 +76,7 @@ export default function SepticServicesPage() {
                       <li>Residential septic pumping</li>
                       <li>Commercial septic maintenance</li>
                       <li>Regular maintenance schedules</li>
-                      <li>Emergency pumping services</li>
+                      {/* <li>Emergency pumping services</li> */}
                     </ul>
                   </div>
 
@@ -131,7 +131,7 @@ export default function SepticServicesPage() {
             </div>
 
             <div className={styles.sidebar}>
-              <div className={styles.sidebarCard}>
+              {/* <div className={styles.sidebarCard}>
                 <h3>Emergency Service</h3>
                 <p>
                   Septic emergencies can&apos;t wait. We provide emergency
@@ -143,7 +143,7 @@ export default function SepticServicesPage() {
                 >
                   🚨 Emergency: (902) 555-0123
                 </a>
-              </div>
+              </div> */}
 
               <div className={styles.sidebarCard}>
                 <h3>Licensed & Insured</h3>
@@ -161,10 +161,10 @@ export default function SepticServicesPage() {
                   pumping or inspection today.
                 </p>
                 <div className={styles.sidebarActions}>
-                  <Link href="/quote" className={styles.primaryButton}>
+                  <Link href='/quote' className={styles.primaryButton}>
                     Get Free Quote
                   </Link>
-                  <Link href="/contact" className={styles.secondaryButton}>
+                  <Link href='/contact' className={styles.secondaryButton}>
                     Schedule Service
                   </Link>
                 </div>
@@ -175,7 +175,7 @@ export default function SepticServicesPage() {
 
         {/* Septic Maintenance Guide - Full Width */}
         <section className={septicStyles.educationSection}>
-          <div className="container">
+          <div className='container'>
             <div className={septicStyles.educationHeader}>
               <h2>Septic System Maintenance Guide</h2>
               <p>
@@ -196,24 +196,24 @@ export default function SepticServicesPage() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td data-label="Household Size">1-2 people</td>
-                      <td data-label="Tank Size (Gallons)">500-750</td>
-                      <td data-label="Pumping Frequency">Every 3-4 years</td>
+                      <td data-label='Household Size'>1-2 people</td>
+                      <td data-label='Tank Size (Gallons)'>500-750</td>
+                      <td data-label='Pumping Frequency'>Every 3-4 years</td>
                     </tr>
                     <tr>
-                      <td data-label="Household Size">3-4 people</td>
-                      <td data-label="Tank Size (Gallons)">750-1000</td>
-                      <td data-label="Pumping Frequency">Every 2-3 years</td>
+                      <td data-label='Household Size'>3-4 people</td>
+                      <td data-label='Tank Size (Gallons)'>750-1000</td>
+                      <td data-label='Pumping Frequency'>Every 2-3 years</td>
                     </tr>
                     <tr>
-                      <td data-label="Household Size">5-6 people</td>
-                      <td data-label="Tank Size (Gallons)">1000-1250</td>
-                      <td data-label="Pumping Frequency">Every 1-2 years</td>
+                      <td data-label='Household Size'>5-6 people</td>
+                      <td data-label='Tank Size (Gallons)'>1000-1250</td>
+                      <td data-label='Pumping Frequency'>Every 1-2 years</td>
                     </tr>
                     <tr>
-                      <td data-label="Household Size">7+ people</td>
-                      <td data-label="Tank Size (Gallons)">1250+</td>
-                      <td data-label="Pumping Frequency">Every 1-2 years</td>
+                      <td data-label='Household Size'>7+ people</td>
+                      <td data-label='Tank Size (Gallons)'>1250+</td>
+                      <td data-label='Pumping Frequency'>Every 1-2 years</td>
                     </tr>
                   </tbody>
                 </table>
@@ -251,13 +251,13 @@ export default function SepticServicesPage() {
 
         {/* Important Notice - Full Width */}
         <section className={septicStyles.warningSection}>
-          <div className="container">
+          <div className='container'>
             <h3>⚠️ Important Notice</h3>
             <p>
               <strong>
                 Wipes & quilted toilet paper may be good on the tushy, but those
                 items are bad for your septic.
-              </strong>{" "}
+              </strong>{' '}
               Don&apos;t let an overfull tank ruin your day or your long weekend
               plans. Schedule us to pump your tank today!
             </p>
@@ -273,10 +273,10 @@ export default function SepticServicesPage() {
               for reliable, professional septic services across Nova Scotia.
             </p>
             <div className={styles.ctaButtons}>
-              <Link href="/quote?service=septic" className={styles.ctaPrimary}>
+              <Link href='/quote?service=septic' className={styles.ctaPrimary}>
                 Get Your Quote
               </Link>
-              <a href="tel:+1-902-555-0123" className={styles.ctaSecondary}>
+              <a href='tel:+1-902-555-0123' className={styles.ctaSecondary}>
                 📞 Call (902) 555-0123
               </a>
             </div>

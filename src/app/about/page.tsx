@@ -1,45 +1,45 @@
-import Image from "next/image";
-import Link from "next/link";
-import { Metadata } from "next";
-import styles from "./about.module.css";
+import Image from 'next/image';
+import Link from 'next/link';
+import { Metadata } from 'next';
+import styles from './about.module.css';
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: 'About Us',
   description:
-    "Learn about Courtesy Flushers, Maritime Canada&apos;s trusted portable sanitation company. Family-owned, locally operated, and committed to exceptional service.",
+    'Learn about Courtesy Flushers, Maritime Canada&apos;s trusted portable sanitation company. Family-owned, locally operated, and committed to exceptional service.',
 };
 
 export default function AboutPage() {
   return (
     <div className={styles.aboutPage}>
-      <div className="container">
+      <div className='container'>
         {/* Hero Section */}
         <section className={styles.heroSection}>
           <div className={styles.heroContent}>
             <h1>About Courtesy Flushers</h1>
             <p className={styles.heroSubtitle}>
-              Maritime Canada&apos;s trusted partner for professional portable
+              Nova Scotia&apos;s trusted partner for professional portable
               sanitation solutions
             </p>
             <p className={styles.heroDescription}>
               Since our founding, we&apos;ve been committed to providing clean,
-              reliable, and courteous portable sanitation services across the
-              Maritime provinces. We&apos;re not just a rental company –
-              we&apos;re your neighbors, dedicated to serving our local
-              communities with pride and professionalism.
+              reliable, and courteous portable sanitation services across
+              Annapolis, Kings, and Hants counties, Nova Scotia. We&apos;re not
+              just a rental company - we&apos;re your neighbors, dedicated to
+              serving our local communities with pride and professionalism.
             </p>
           </div>
 
           <div className={styles.heroImage}>
             <Image
-              src="/images/truck-tank-banner.jpeg"
-              alt="Courtesy Flushers team and equipment"
+              src='/images/truck-tank-banner.jpeg'
+              alt='Courtesy Flushers team and equipment'
               width={600}
               height={400}
               className={styles.image}
               quality={85}
-              placeholder="blur"
-              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+              placeholder='blur'
+              blurDataURL='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k='
             />
           </div>
         </section>
@@ -47,7 +47,7 @@ export default function AboutPage() {
 
       {/* Our Story Section - Full Width */}
       <section className={styles.storySection}>
-        <div className="container">
+        <div className='container'>
           <div className={styles.sectionContent}>
             <h2>Our Story</h2>
             <div className={styles.storyGrid}>
@@ -58,18 +58,17 @@ export default function AboutPage() {
                   matter where they are or what they&apos;re doing.
                 </p>
                 <p>
-                  What started as a small local operation has grown into
-                  Maritime Canada&apos;s most trusted portable sanitation
-                  provider. Our growth has been built on word-of-mouth
-                  recommendations, repeat customers, and our unwavering
-                  commitment to courtesy and cleanliness.
+                  What started as a small local operation has grown into the
+                  Valley&apos;s most trusted portable sanitation provider. Our
+                  growth has been built on word-of-mouth recommendations, repeat
+                  customers, and our unwavering commitment to courtesy and
+                  cleanliness.
                 </p>
                 <p>
                   Today, we serve construction sites, weddings, festivals, and
-                  emergency situations across the Maritime provinces. But no
-                  matter how much we grow, we never forget our roots –
-                  we&apos;re still the local company that cares about our
-                  community.
+                  emergency situations across Nova Scotia. But no matter how
+                  much we grow, we never forget our roots - we&apos;re still the
+                  local company that cares about our community.
                 </p>
               </div>
               <div className={styles.storyStats}>
@@ -95,7 +94,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <div className="container">
+      <div className='container'>
         {/* Our Values Section */}
         <section className={styles.valuesSection}>
           <div className={styles.sectionContent}>
@@ -171,41 +170,39 @@ export default function AboutPage() {
 
       {/* Service Areas Section - Full Width */}
       <section className={styles.serviceAreasSection}>
-        <div className="container">
+        <div className='container'>
           <div className={styles.sectionContent}>
-            <h2>Serving Maritime Canada</h2>
+            <h2>Serving Valley, Nova Scotia</h2>
             <p className={styles.serviceAreasIntro}>
-              We proudly serve communities throughout the Maritime provinces,
-              bringing our courteous service and clean solutions to your
-              location.
+              We proudly serve communities throughout the Annapolis, Kings, and
+              Hants counties, bringing our courteous service and clean solutions
+              to your location.
             </p>
 
             <div className={styles.serviceAreasGrid}>
               <div className={styles.provinceCard}>
-                <h3>🍁 Nova Scotia</h3>
+                <h3>Annapolis County</h3>
                 <p>
-                  Halifax, Dartmouth, Sydney, Truro, and surrounding communities
+                  Annapolis Royal, Middleton, Bridgetown, and surrounding
+                  communities
                 </p>
               </div>
               <div className={styles.provinceCard}>
-                <h3>🌲 New Brunswick</h3>
+                <h3>Kings County</h3>
                 <p>
-                  Moncton, Saint John, Fredericton, and the greater Maritime
-                  region
+                  Kentville, Wolfville, Berwick, and surrounding communities
                 </p>
               </div>
               <div className={styles.provinceCard}>
-                <h3>🦞 Prince Edward Island</h3>
-                <p>
-                  Charlottetown, Summerside, and across the beautiful island
-                </p>
+                <h3>Hants County</h3>
+                <p>Windsor, Hantsport, Elmsdale, and surrounding communities</p>
               </div>
             </div>
 
             <div className={styles.serviceAreasNote}>
               <p>
-                Don&apos;t see your area listed?{" "}
-                <Link href="/contact">Contact us</Link> – we may still be able
+                Don&apos;t see your area listed?{' '}
+                <Link href='/contact'>Contact us</Link> – we may still be able
                 to serve you or help you find a trusted local provider.
               </p>
             </div>
@@ -213,7 +210,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <div className="container">
+      <div className='container'>
         {/* CTA Section */}
         <section className={styles.ctaSection}>
           <div className={styles.ctaContent}>
@@ -224,10 +221,10 @@ export default function AboutPage() {
             </p>
 
             <div className={styles.ctaButtons}>
-              <Link href="/quote" className={styles.ctaPrimary}>
+              <Link href='/quote' className={styles.ctaPrimary}>
                 Get Your Quote
               </Link>
-              <Link href="/contact" className={styles.ctaSecondary}>
+              <Link href='/contact' className={styles.ctaSecondary}>
                 Contact Us
               </Link>
             </div>
