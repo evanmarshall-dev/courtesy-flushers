@@ -1,17 +1,17 @@
-import Link from "next/link";
-import { Metadata } from "next";
-import styles from "./services.module.css";
+import Link from 'next/link';
+import { Metadata } from 'next';
+import styles from './services.module.css';
 
 export const metadata: Metadata = {
-  title: "Our Services",
+  title: 'Our Services',
   description:
-    "Comprehensive portable toilet and sanitation rental services across Maritime Canada. From construction sites to luxury events, we have the perfect solution.",
+    'Comprehensive portable toilet and sanitation rental services across Maritime Canada. From construction sites to luxury events, we have the perfect solution.',
 };
 
 export default function ServicesPage() {
   return (
     <div className={styles.servicesPage}>
-      <div className="container">
+      <div className='container'>
         <header className={styles.pageHeader}>
           <h1>Our Services</h1>
           <p>
@@ -39,17 +39,17 @@ export default function ServicesPage() {
 
               <div className={styles.serviceActions}>
                 <Link
-                  href="/services/portable-toilets"
+                  href='/services/portable-toilets'
                   className={styles.primaryButton}
                 >
                   Learn More
                 </Link>
-                <Link
+                {/* <Link
                   href="/quote?service=portable-toilets"
                   className={styles.secondaryButton}
                 >
                   Get Quote
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -72,17 +72,17 @@ export default function ServicesPage() {
 
               <div className={styles.serviceActions}>
                 <Link
-                  href="/services/plumbing"
+                  href='/services/plumbing'
                   className={styles.primaryButton}
                 >
                   Learn More
                 </Link>
-                <Link
+                {/* <Link
                   href="/quote?service=plumbing"
                   className={styles.secondaryButton}
                 >
                   Get Quote
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -104,15 +104,15 @@ export default function ServicesPage() {
               </ul>
 
               <div className={styles.serviceActions}>
-                <Link href="/services/septic" className={styles.primaryButton}>
+                <Link href='/services/septic' className={styles.primaryButton}>
                   Learn More
                 </Link>
-                <Link
+                {/* <Link
                   href="/quote?service=septic"
                   className={styles.secondaryButton}
                 >
                   Get Quote
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -126,10 +126,10 @@ export default function ServicesPage() {
           </p>
 
           <div className={styles.ctaButtons}>
-            <Link href="/contact" className={styles.ctaPrimary}>
+            <Link href='/contact' className={styles.ctaPrimary}>
               Contact Our Experts
             </Link>
-            <a href="tel:+1-902-555-0123" className={styles.ctaSecondary}>
+            <a href='tel:+1-902-555-0123' className={styles.ctaSecondary}>
               📞 Call (902) 555-0123
             </a>
           </div>

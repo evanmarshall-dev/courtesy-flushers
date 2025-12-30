@@ -1,24 +1,24 @@
-import Link from "next/link";
-import Image from "next/image";
-import { Metadata } from "next";
-import styles from "../service-detail.module.css";
-import toiletStyles from "./portable-toilets.module.css";
+import Link from 'next/link';
+import Image from 'next/image';
+import { Metadata } from 'next';
+import styles from '../service-detail.module.css';
+import toiletStyles from './portable-toilets.module.css';
 
 export const metadata: Metadata = {
-  title: "Portable Toilets | Courtesy Flushers",
+  title: 'Portable Toilets | Courtesy Flushers',
   description:
-    "Fast, efficient portable toilet delivery across Nova Scotia. Perfect for weddings, construction sites, and special events. Clean, reliable service you can count on.",
+    'Fast, efficient portable toilet delivery across Nova Scotia. Perfect for weddings, construction sites, and special events. Clean, reliable service you can count on.',
 };
 
 export default function PortableToiletsPage() {
   return (
     <div className={styles.serviceDetailPage}>
-      <div className="container">
+      <div className='container'>
         {/* Breadcrumb */}
         <nav className={styles.breadcrumb}>
-          <Link href="/">Home</Link>
+          <Link href='/'>Home</Link>
           <span className={styles.separator}>→</span>
-          <Link href="/services">Services</Link>
+          <Link href='/services'>Services</Link>
           <span className={styles.separator}>→</span>
           <span>Portable Toilets</span>
         </nav>
@@ -26,8 +26,8 @@ export default function PortableToiletsPage() {
         {/* Hero Section */}
         <header className={styles.serviceHero}>
           <Image
-            src="/images/toilets-setup.jpeg"
-            alt="Clean portable toilet units ready for delivery"
+            src='/images/toilets-setup.jpeg'
+            alt='Clean portable toilet units ready for delivery'
             fill
             className={styles.serviceHeroImage}
             quality={85}
@@ -119,11 +119,11 @@ export default function PortableToiletsPage() {
                   help you plan the perfect setup for your event.
                 </p>
                 <div className={styles.sidebarActions}>
-                  <Link href="/quote" className={styles.primaryButton}>
+                  {/* <Link href="/quote" className={styles.primaryButton}>
                     Get Free Quote
-                  </Link>
+                  </Link> */}
                   <a
-                    href="tel:+1-902-555-0123"
+                    href='tel:+1-902-555-0123'
                     className={styles.secondaryButton}
                   >
                     📞 Call Us
@@ -136,7 +136,7 @@ export default function PortableToiletsPage() {
 
         {/* Toilet Planning Guide - Full Width */}
         <section className={toiletStyles.toiletPlanningSection}>
-          <div className="container">
+          <div className='container'>
             <div className={toiletStyles.planningHeader}>
               <h2>How Many Toilets Do You Need?</h2>
               <p>
@@ -160,40 +160,40 @@ export default function PortableToiletsPage() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td data-label="Number of People">1-15</td>
-                      <td data-label="4-Hour Event">1 unit</td>
-                      <td data-label="8-Hour Event">1 unit</td>
-                      <td data-label="24-Hour+ Event">2 units</td>
+                      <td data-label='Number of People'>1-15</td>
+                      <td data-label='4-Hour Event'>1 unit</td>
+                      <td data-label='8-Hour Event'>1 unit</td>
+                      <td data-label='24-Hour+ Event'>2 units</td>
                     </tr>
                     <tr>
-                      <td data-label="Number of People">16-40</td>
-                      <td data-label="4-Hour Event">2 units</td>
-                      <td data-label="8-Hour Event">2 units</td>
-                      <td data-label="24-Hour+ Event">3 units</td>
+                      <td data-label='Number of People'>16-40</td>
+                      <td data-label='4-Hour Event'>2 units</td>
+                      <td data-label='8-Hour Event'>2 units</td>
+                      <td data-label='24-Hour+ Event'>3 units</td>
                     </tr>
                     <tr>
-                      <td data-label="Number of People">41-60</td>
-                      <td data-label="4-Hour Event">3 units</td>
-                      <td data-label="8-Hour Event">3 units</td>
-                      <td data-label="24-Hour+ Event">4 units</td>
+                      <td data-label='Number of People'>41-60</td>
+                      <td data-label='4-Hour Event'>3 units</td>
+                      <td data-label='8-Hour Event'>3 units</td>
+                      <td data-label='24-Hour+ Event'>4 units</td>
                     </tr>
                     <tr>
-                      <td data-label="Number of People">61-100</td>
-                      <td data-label="4-Hour Event">4 units</td>
-                      <td data-label="8-Hour Event">5 units</td>
-                      <td data-label="24-Hour+ Event">6 units</td>
+                      <td data-label='Number of People'>61-100</td>
+                      <td data-label='4-Hour Event'>4 units</td>
+                      <td data-label='8-Hour Event'>5 units</td>
+                      <td data-label='24-Hour+ Event'>6 units</td>
                     </tr>
                     <tr>
-                      <td data-label="Number of People">101-150</td>
-                      <td data-label="4-Hour Event">6 units</td>
-                      <td data-label="8-Hour Event">7 units</td>
-                      <td data-label="24-Hour+ Event">9 units</td>
+                      <td data-label='Number of People'>101-150</td>
+                      <td data-label='4-Hour Event'>6 units</td>
+                      <td data-label='8-Hour Event'>7 units</td>
+                      <td data-label='24-Hour+ Event'>9 units</td>
                     </tr>
                     <tr>
-                      <td data-label="Number of People">151-200</td>
-                      <td data-label="4-Hour Event">8 units</td>
-                      <td data-label="8-Hour Event">9 units</td>
-                      <td data-label="24-Hour+ Event">12 units</td>
+                      <td data-label='Number of People'>151-200</td>
+                      <td data-label='4-Hour Event'>8 units</td>
+                      <td data-label='8-Hour Event'>9 units</td>
+                      <td data-label='24-Hour+ Event'>12 units</td>
                     </tr>
                   </tbody>
                 </table>
@@ -237,13 +237,13 @@ export default function PortableToiletsPage() {
               facilities it needs.
             </p>
             <div className={styles.ctaButtons}>
-              <Link
+              {/* <Link
                 href="/quote?service=portable-toilets"
                 className={styles.ctaPrimary}
               >
                 Get Your Quote
-              </Link>
-              <Link href="/contact" className={styles.ctaSecondary}>
+              </Link> */}
+              <Link href='/contact' className={styles.ctaSecondary}>
                 Contact Us
               </Link>
             </div>

@@ -160,9 +160,9 @@ export default function PlumbingPage() {
                   consultation and quote.
                 </p>
                 <div className={styles.sidebarActions}>
-                  <Link href='/quote' className={styles.primaryButton}>
+                  {/* <Link href='/quote' className={styles.primaryButton}>
                     Get Free Quote
-                  </Link>
+                  </Link> */}
                   <Link href='/contact' className={styles.secondaryButton}>
                     Contact Us
                   </Link>
@@ -249,12 +249,12 @@ export default function PlumbingPage() {
               experienced team is here to help create your perfect space.
             </p>
             <div className={styles.ctaButtons}>
-              <Link
+              {/* <Link
                 href='/quote?service=plumbing'
                 className={styles.ctaPrimary}
               >
                 Get Your Quote
-              </Link>
+              </Link> */}
               <a href='tel:+1-902-555-0123' className={styles.ctaSecondary}>
                 📞 Call (902) 555-0123
               </a>

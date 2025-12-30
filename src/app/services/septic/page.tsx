@@ -161,9 +161,9 @@ export default function SepticServicesPage() {
                   pumping or inspection today.
                 </p>
                 <div className={styles.sidebarActions}>
-                  <Link href='/quote' className={styles.primaryButton}>
+                  {/* <Link href='/quote' className={styles.primaryButton}>
                     Get Free Quote
-                  </Link>
+                  </Link> */}
                   <Link href='/contact' className={styles.secondaryButton}>
                     Schedule Service
                   </Link>
@@ -273,9 +273,9 @@ export default function SepticServicesPage() {
               for reliable, professional septic services across Nova Scotia.
             </p>
             <div className={styles.ctaButtons}>
-              <Link href='/quote?service=septic' className={styles.ctaPrimary}>
+              {/* <Link href='/quote?service=septic' className={styles.ctaPrimary}>
                 Get Your Quote
-              </Link>
+              </Link> */}
               <a href='tel:+1-902-555-0123' className={styles.ctaSecondary}>
                 📞 Call (902) 555-0123
               </a>

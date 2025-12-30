@@ -223,11 +223,11 @@ export default function ContactPage() {
         <section className={styles.quickActions}>
           <h2>Ready to Get Started?</h2>
           <div className={styles.quickActionsGrid}>
-            <Link href='/quote' className={styles.actionCard}>
+            {/* <Link href='/quote' className={styles.actionCard}>
               <div className={styles.actionIcon}>📝</div>
               <h3>Get Free Quote</h3>
               <p>Request a personalized quote for your project</p>
-            </Link>
+            </Link> */}
             <a href='tel:+1-902-555-0123' className={styles.actionCard}>
               <div className={styles.actionIcon}>📞</div>
               <h3>Call Us Now</h3>

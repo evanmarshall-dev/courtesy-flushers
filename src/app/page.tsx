@@ -1,34 +1,34 @@
-import Hero from "@/components/Hero/Hero";
-import Link from "next/link";
-import Image from "next/image";
-import styles from "./page.module.css";
+import Hero from '@/components/Hero/Hero';
+import Link from 'next/link';
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
     <>
-      <a href="#main-content" className="skip-link">
+      <a href='#main-content' className='skip-link'>
         Skip to main content
       </a>
 
       <Hero
-        title="Courtesy Flushers"
-        subtitle="Your Business is our Business"
+        title='Courtesy Flushers'
+        subtitle='Your Business is our Business'
         description="Nova Scotia's premier portable sanitation service. From new home constructions to renovations and special events, we do it all! If you're building and waiting on a toilet, our portable restroom division can provide you with help in the short term with your construction."
-        primaryCTA={{
-          text: "Get Your Quote",
-          href: "/quote",
-        }}
+        // primaryCTA={{
+        //   text: 'Get Your Quote',
+        //   href: '/quote',
+        // }}
         secondaryCTA={{
-          text: "Call Now",
-          href: "tel:+1-902-555-0123",
+          text: 'Call Now',
+          href: 'tel:+1-902-555-0123',
         }}
-        backgroundImage="/images/truck-toilet-rev.jpeg"
+        backgroundImage='/images/truck-toilet-rev.jpeg'
       />
 
-      <main id="main-content">
+      <main id='main-content'>
         {/* Services Overview Section */}
         <section className={styles.servicesSection}>
-          <div className="container">
+          <div className='container'>
             <div className={styles.sectionHeader}>
               <h2>Our Services</h2>
               <p>Professional portable sanitation solutions for every need</p>
@@ -43,7 +43,7 @@ export default function Home() {
                   to your site.
                 </p>
                 <Link
-                  href="/services/portable-toilets"
+                  href='/services/portable-toilets'
                   className={styles.serviceLink}
                 >
                   Learn More
@@ -57,7 +57,7 @@ export default function Home() {
                   Plumbing for your new construction & renovations and even
                   those pesky clogged pipes.
                 </p>
-                <Link href="/services/plumbing" className={styles.serviceLink}>
+                <Link href='/services/plumbing' className={styles.serviceLink}>
                   Learn More
                 </Link>
               </div>
@@ -69,7 +69,7 @@ export default function Home() {
                   All your septic services in one place. Pumping, replacement,
                   and installation.
                 </p>
-                <Link href="/services/septic" className={styles.serviceLink}>
+                <Link href='/services/septic' className={styles.serviceLink}>
                   Learn More
                 </Link>
               </div>
@@ -78,8 +78,8 @@ export default function Home() {
         </section>
 
         {/* Why Choose Us Section */}
-        <section id="why-choose-us" className={styles.whyChooseSection}>
-          <div className="container">
+        <section id='why-choose-us' className={styles.whyChooseSection}>
+          <div className='container'>
             <div className={styles.whyChooseContent}>
               <div className={styles.whyChooseText}>
                 <h2>Why Choose Courtesy Flushers?</h2>
@@ -136,7 +136,7 @@ export default function Home() {
                 </div>
 
                 <div className={styles.whyChooseCTA}>
-                  <Link href="/why-us" className={styles.learnMoreButton}>
+                  <Link href='/why-us' className={styles.learnMoreButton}>
                     Learn More About Us
                   </Link>
                 </div>
@@ -144,14 +144,14 @@ export default function Home() {
 
               <div className={styles.whyChooseImage}>
                 <Image
-                  src="/images/truck-tank-banner.jpeg"
-                  alt="Clean portable toilet units ready for delivery"
+                  src='/images/truck-tank-banner.jpeg'
+                  alt='Clean portable toilet units ready for delivery'
                   width={500}
                   height={400}
                   className={styles.image}
                   quality={85}
-                  placeholder="blur"
-                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+                  placeholder='blur'
+                  blurDataURL='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k='
                 />
               </div>
             </div>
@@ -160,7 +160,7 @@ export default function Home() {
 
         {/* Testimonials Section */}
         <section className={styles.testimonialsSection}>
-          <div className="container">
+          <div className='container'>
             <div className={styles.sectionHeader}>
               <h2>What Our Customers Say</h2>
               <p>Real experiences from real customers across Nova Scotia</p>
@@ -198,7 +198,7 @@ export default function Home() {
 
         {/* CTA Section */}
         <section className={styles.ctaSection}>
-          <div className="container">
+          <div className='container'>
             <div className={styles.ctaContent}>
               <h2>Ready to Experience the Courtesy Flushers Difference?</h2>
               <p>
@@ -207,10 +207,10 @@ export default function Home() {
               </p>
 
               <div className={styles.ctaButtons}>
-                <Link href="/quote" className={styles.ctaPrimary}>
+                {/* <Link href='/quote' className={styles.ctaPrimary}>
                   Get Free Quote
-                </Link>
-                <a href="tel:+1-902-555-0123" className={styles.ctaSecondary}>
+                </Link> */}
+                <a href='tel:+1-902-555-0123' className={styles.ctaSecondary}>
                   📞 Call (902) 555-0123
                 </a>
               </div>

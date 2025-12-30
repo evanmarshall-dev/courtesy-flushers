@@ -1,37 +1,37 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import Image from "next/image";
-import { useState } from "react";
-import styles from "./Navbar.module.css";
+import Link from 'next/link';
+import Image from 'next/image';
+import { useState } from 'react';
+import styles from './Navbar.module.css';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
-    { name: "Home", href: "/" },
+    { name: 'Home', href: '/' },
     {
-      name: "Services",
-      href: "/services",
+      name: 'Services',
+      href: '/services',
       submenu: [
-        { name: "Portable Toilets", href: "/services/portable-toilets" },
-        { name: "Plumbing", href: "/services/plumbing" },
-        { name: "Septic Services", href: "/services/septic" },
+        { name: 'Portable Toilets', href: '/services/portable-toilets' },
+        { name: 'Plumbing', href: '/services/plumbing' },
+        { name: 'Septic Services', href: '/services/septic' },
       ],
     },
-    { name: "About Us", href: "/about" },
+    { name: 'About Us', href: '/about' },
     // { name: "Gallery", href: "/gallery" },
-    { name: "Contact", href: "/contact" },
+    { name: 'Contact', href: '/contact' },
   ];
 
   return (
-    <header className={styles.header} role="banner">
+    <header className={styles.header} role='banner'>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <Link href="/" aria-label="Courtesy Flushers - Home">
+          <Link href='/' aria-label='Courtesy Flushers - Home'>
             <Image
-              src="/icons/logo.svg"
-              alt="Courtesy Flushers"
+              src='/icons/logo.svg'
+              alt='Courtesy Flushers'
               width={200}
               height={60}
               priority
@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className={styles.desktopNav} aria-label="Main navigation">
+        <nav className={styles.desktopNav} aria-label='Main navigation'>
           <ul className={styles.navList}>
             {navigation.map((item) => (
               <li key={item.name} className={styles.navItem}>
@@ -49,7 +49,7 @@ export default function Navbar() {
                   <div className={styles.dropdown}>
                     <Link href={item.href} className={styles.navLink}>
                       {item.name}
-                      <span className={styles.dropdownIcon} aria-hidden="true">
+                      <span className={styles.dropdownIcon} aria-hidden='true'>
                         ▾
                       </span>
                     </Link>
@@ -78,12 +78,12 @@ export default function Navbar() {
 
         {/* CTA Buttons */}
         <div className={styles.ctaButtons}>
-          <a href="tel:+1-902-555-0123" className={styles.phoneButton}>
+          <a href='tel:+1-902-555-0123' className={styles.phoneButton}>
             📞 Call Now
           </a>
-          <Link href="/quote" className={styles.quoteButton}>
+          {/* <Link href='/quote' className={styles.quoteButton}>
             Get Quote
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile Menu Button */}
@@ -91,8 +91,8 @@ export default function Navbar() {
           className={styles.mobileMenuButton}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           aria-expanded={isMenuOpen}
-          aria-controls="mobile-menu"
-          aria-label="Toggle main menu"
+          aria-controls='mobile-menu'
+          aria-label='Toggle main menu'
         >
           <span className={styles.hamburger}></span>
           <span className={styles.hamburger}></span>
@@ -104,8 +104,8 @@ export default function Navbar() {
       {isMenuOpen && (
         <nav
           className={styles.mobileNav}
-          id="mobile-menu"
-          aria-label="Mobile navigation"
+          id='mobile-menu'
+          aria-label='Mobile navigation'
         >
           <ul className={styles.mobileNavList}>
             {navigation.map((item) => (
@@ -135,12 +135,12 @@ export default function Navbar() {
               </li>
             ))}
             <li className={styles.mobileCTA}>
-              <a href="tel:+1-902-555-0123" className={styles.mobilePhone}>
+              <a href='tel:+1-902-555-0123' className={styles.mobilePhone}>
                 📞 Call Now
               </a>
-              <Link href="/quote" className={styles.mobileQuote}>
+              {/* <Link href='/quote' className={styles.mobileQuote}>
                 Get Quote
-              </Link>
+              </Link> */}
             </li>
           </ul>
         </nav>

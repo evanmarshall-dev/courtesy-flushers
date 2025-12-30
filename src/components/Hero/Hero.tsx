@@ -1,15 +1,15 @@
-import Link from "next/link";
-import Image from "next/image";
-import styles from "./Hero.module.css";
+import Link from 'next/link';
+import Image from 'next/image';
+import styles from './Hero.module.css';
 
 interface HeroProps {
   title: string;
   subtitle: string;
   description: string;
-  primaryCTA: {
-    text: string;
-    href: string;
-  };
+  // primaryCTA: {
+  //   text: string;
+  //   href: string;
+  // };
   secondaryCTA: {
     text: string;
     href: string;
@@ -26,13 +26,13 @@ export default function Hero({
   title,
   subtitle,
   description,
-  primaryCTA,
+  // primaryCTA,
   secondaryCTA,
   backgroundImage,
   features = [],
 }: HeroProps) {
   return (
-    <section className={styles.hero} role="banner">
+    <section className={styles.hero} role='banner'>
       <div className={styles.heroContent}>
         {/* Text Content Side */}
         <div className={styles.textSide}>
@@ -43,10 +43,10 @@ export default function Hero({
 
             <div className={styles.ctaSection}>
               <div className={styles.ctaButtons}>
-                <Link href={primaryCTA.href} className={styles.primaryCTA}>
+                {/* <Link href={primaryCTA.href} className={styles.primaryCTA}>
                   <span className={styles.ctaIcon}>📋</span>
                   {primaryCTA.text}
-                </Link>
+                </Link> */}
                 <a href={secondaryCTA.href} className={styles.secondaryCTA}>
                   <span className={styles.ctaIcon}>📞</span>
                   {secondaryCTA.text}
@@ -69,14 +69,14 @@ export default function Hero({
             <div className={styles.imageContainer}>
               <Image
                 src={backgroundImage}
-                alt="Courtesy Flushers portable toilet service truck"
+                alt='Courtesy Flushers portable toilet service truck'
                 fill
                 className={styles.heroImage}
                 priority
-                sizes="(max-width: 1023px) 100vw, 50vw"
+                sizes='(max-width: 1023px) 100vw, 50vw'
                 quality={90}
-                placeholder="blur"
-                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+                placeholder='blur'
+                blurDataURL='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k='
               />
             </div>
           )}
@@ -89,7 +89,7 @@ export default function Hero({
             <div className={styles.features}>
               {features.map((feature, index) => (
                 <div key={index} className={styles.feature}>
-                  <div className={styles.featureIcon} aria-hidden="true">
+                  <div className={styles.featureIcon} aria-hidden='true'>
                     {feature.icon}
                   </div>
                   <div className={styles.featureContent}>

@@ -221,9 +221,9 @@ export default function AboutPage() {
             </p>
 
             <div className={styles.ctaButtons}>
-              <Link href='/quote' className={styles.ctaPrimary}>
+              {/* <Link href='/quote' className={styles.ctaPrimary}>
                 Get Your Quote
-              </Link>
+              </Link> */}
               <Link href='/contact' className={styles.ctaSecondary}>
                 Contact Us
               </Link>
