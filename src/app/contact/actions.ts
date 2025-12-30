@@ -3,6 +3,7 @@
 import { z } from 'zod';
 import { Resend } from 'resend';
 import { ContactEmail } from '@/lib/email/contact-email';
+import { render } from '@react-email/render';
 import { headers } from 'next/headers';
 
 // Initialize Resend with API key
@@ -171,8 +172,8 @@ export async function submitContactForm(
       };
     }
 
-    // Render the email component to HTML
-    const emailHtml = ContactEmail(sanitizedData);
+    // Render the email component to HTML string
+    const emailHtml = render(ContactEmail(sanitizedData));
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
@@ -180,7 +181,7 @@ export async function submitContactForm(
       to: process.env.CONTACT_EMAIL || 'info@courtesyflushers.ca',
       replyTo: sanitizedData.email,
       subject: `New Contact Form Submission from ${sanitizedData.firstName} ${sanitizedData.lastName}`,
-      react: emailHtml,
+      html: emailHtml,
     });
 
     if (error) {
