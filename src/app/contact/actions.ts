@@ -3,8 +3,8 @@
 import { z } from 'zod';
 import { Resend } from 'resend';
 import { ContactEmail } from '@/lib/email/contact-email';
-import { renderToString } from 'react-dom/server';
 import { headers } from 'next/headers';
+import type React from 'react';
 
 // Initialize Resend with API key
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -172,16 +172,13 @@ export async function submitContactForm(
       };
     }
 
-    // Render the email component to HTML string
-    const emailHtml = renderToString(ContactEmail(sanitizedData));
-
     // Send email using Resend
     const { data, error } = await resend.emails.send({
       from: 'Contact Form <onboarding@resend.dev>', // Replace with your verified domain
       to: process.env.CONTACT_EMAIL || 'info@courtesyflushers.ca',
       replyTo: sanitizedData.email,
       subject: `New Contact Form Submission from ${sanitizedData.firstName} ${sanitizedData.lastName}`,
-      html: emailHtml,
+      react: ContactEmail(sanitizedData) as React.ReactElement,
     });
 
     if (error) {
