@@ -3,7 +3,7 @@
 import { z } from 'zod';
 import { Resend } from 'resend';
 import { ContactEmail } from '@/lib/email/contact-email';
-import { render } from '@react-email/render';
+import { renderToString } from 'react-dom/server';
 import { headers } from 'next/headers';
 
 // Initialize Resend with API key
@@ -173,7 +173,7 @@ export async function submitContactForm(
     }
 
     // Render the email component to HTML string
-    const emailHtml = render(ContactEmail(sanitizedData));
+    const emailHtml = renderToString(ContactEmail(sanitizedData));
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
