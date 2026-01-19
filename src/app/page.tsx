@@ -20,7 +20,7 @@ export default function Home() {
         // }}
         secondaryCTA={{
           text: 'Call Now',
-          href: 'tel:+1-902-555-0123',
+          href: 'tel:+1-902-691-6616',
         }}
         backgroundImage='/images/truck-toilet-rev.jpeg'
       />
@@ -210,8 +210,8 @@ export default function Home() {
                 {/* <Link href='/quote' className={styles.ctaPrimary}>
                   Get Free Quote
                 </Link> */}
-                <a href='tel:+1-902-555-0123' className={styles.ctaSecondary}>
-                  📞 Call (902) 555-0123
+                <a href='tel:+1-902-691-6616' className={styles.ctaSecondary}>
+                  📞 Call (902) 691-6616
                 </a>
               </div>
 

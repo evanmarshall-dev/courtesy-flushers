@@ -1,3 +1,16 @@
+/*
+ * CONTACT FORM - TEMPORARILY DISABLED
+ *
+ * This form requires Resend API configuration to work.
+ * To enable:
+ * 1. Get a Resend API key from https://resend.com
+ * 2. Add RESEND_API_KEY to .env.local
+ * 3. Verify your domain with Resend for production
+ * 4. Uncomment this file and the import in page.tsx
+ *
+ * See CONTACT_FORM_SETUP.md for detailed setup instructions
+ */
+
 'use client';
 
 import { useActionState } from 'react';
@@ -159,7 +172,7 @@ export default function ContactForm() {
                 id='phone'
                 name='phone'
                 className={styles.formInput}
-                placeholder='(902) 555-0123'
+                placeholder='(902) 691-6616'
                 aria-invalid={state?.errors?.phone ? 'true' : 'false'}
                 aria-describedby={
                   state?.errors?.phone ? 'phone-error' : undefined

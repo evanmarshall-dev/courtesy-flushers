@@ -123,7 +123,7 @@ export default function PortableToiletsPage() {
                     Get Free Quote
                   </Link> */}
                   <a
-                    href='tel:+1-902-555-0123'
+                    href='tel:+1-902-691-6616'
                     className={styles.secondaryButton}
                   >
                     📞 Call Us

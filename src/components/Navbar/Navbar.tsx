@@ -78,7 +78,7 @@ export default function Navbar() {
 
         {/* CTA Buttons */}
         <div className={styles.ctaButtons}>
-          <a href='tel:+1-902-555-0123' className={styles.phoneButton}>
+          <a href='tel:+1-902-691-6616' className={styles.phoneButton}>
             📞 Call Now
           </a>
           {/* <Link href='/quote' className={styles.quoteButton}>
@@ -135,7 +135,7 @@ export default function Navbar() {
               </li>
             ))}
             <li className={styles.mobileCTA}>
-              <a href='tel:+1-902-555-0123' className={styles.mobilePhone}>
+              <a href='tel:+1-902-691-6616' className={styles.mobilePhone}>
                 📞 Call Now
               </a>
               {/* <Link href='/quote' className={styles.mobileQuote}>

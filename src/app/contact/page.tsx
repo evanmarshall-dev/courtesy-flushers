@@ -2,7 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import styles from './contact.module.css';
-import ContactForm from './ContactForm';
+// TODO: Re-enable when Resend API is configured
+// import ContactForm from './ContactForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Courtesy Flushers',
@@ -29,7 +30,7 @@ export default function ContactPage() {
             {/* Contact Information */}
             <div className={styles.contactInfo}>
               <div className={styles.contactCard}>
-                <h2>Get In Touch</h2>
+                <h2>Business Info</h2>
                 <p>
                   Courtesy Flushers Inc is a proudly owned family business
                   situated in the beautiful Annapolis Valley. We&apos;re here
@@ -38,21 +39,21 @@ export default function ContactPage() {
                 </p>
 
                 <div className={styles.contactDetails}>
-                  <div className={styles.contactItem}>
+                  {/* <div className={styles.contactItem}>
                     <div className={styles.contactIcon}>📞</div>
                     <div>
                       <h3>Phone</h3>
                       <a
-                        href='tel:+1-902-555-0123'
+                        href='tel:+1-902-691-6616'
                         className={styles.contactLink}
                       >
-                        (902) 555-0123
+                        (902) 691-6616
                       </a>
                       <p>Available 24/7 for emergencies</p>
                     </div>
-                  </div>
+                  </div> */}
 
-                  <div className={styles.contactItem}>
+                  {/* <div className={styles.contactItem}>
                     <div className={styles.contactIcon}>📧</div>
                     <div>
                       <h3>Email</h3>
@@ -64,7 +65,7 @@ export default function ContactPage() {
                       </a>
                       <p>We&apos;ll get back to you within 24 hours</p>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className={styles.contactItem}>
                     <div className={styles.contactIcon}>📍</div>
@@ -95,16 +96,61 @@ export default function ContactPage() {
                   hours. Call us anytime for urgent issues.
                 </p>
                 <a
-                  href="tel:+1-902-555-0123"
+                  href="tel:+1-902-691-6616"
                   className={styles.emergencyButton}
                 >
-                  🚨 Emergency: (902) 555-0123
+                  🚨 Emergency: (902) 691-6616
                 </a>
               </div> */}
             </div>
 
-            {/* Contact Form */}
-            <ContactForm />
+            {/* Contact Form - Temporarily disabled until email service is configured */}
+            {/* <ContactForm /> */}
+
+            {/* Direct Contact CTA */}
+            <div className={styles.contactForm}>
+              <div className={styles.formCard}>
+                <h2>Get In Touch</h2>
+                <p>
+                  Ready to discuss your project? We&apos;re here to help!
+                  Contact us directly through phone or email.
+                </p>
+
+                <div className={styles.directContactOptions}>
+                  <a
+                    href='tel:+1-902-691-6616'
+                    className={styles.contactButton}
+                  >
+                    <span className={styles.buttonIcon}>📞</span>
+                    <div className={styles.buttonContent}>
+                      <strong>Call Us Now</strong>
+                      <span>(902) 691-6616</span>
+                    </div>
+                  </a>
+
+                  <a
+                    href='mailto:info@courtesyflushers.ca'
+                    className={styles.contactButton}
+                  >
+                    <span className={styles.buttonIcon}>📧</span>
+                    <div className={styles.buttonContent}>
+                      <strong>Email Us</strong>
+                      <span>info@courtesyflushers.ca</span>
+                    </div>
+                  </a>
+                </div>
+
+                {/* <div className={styles.contactNote}>
+                  <p>
+                    <strong>⏰ Available 24/7 for emergencies</strong>
+                  </p>
+                  <p>
+                    We&apos;ll respond to all inquiries within 24 hours during
+                    business hours.
+                  </p>
+                </div> */}
+              </div>
+            </div>
           </div>
         </div>
 
@@ -228,7 +274,7 @@ export default function ContactPage() {
               <h3>Get Free Quote</h3>
               <p>Request a personalized quote for your project</p>
             </Link> */}
-            <a href='tel:+1-902-555-0123' className={styles.actionCard}>
+            <a href='tel:+1-902-691-6616' className={styles.actionCard}>
               <div className={styles.actionIcon}>📞</div>
               <h3>Call Us Now</h3>
               <p>Speak directly with our team</p>

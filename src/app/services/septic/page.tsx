@@ -138,10 +138,10 @@ export default function SepticServicesPage() {
                   septic services to get your system back up and running.
                 </p>
                 <a
-                  href="tel:+1-902-555-0123"
+                  href="tel:+1-902-691-6616"
                   className={styles.emergencyButton}
                 >
-                  🚨 Emergency: (902) 555-0123
+                  🚨 Emergency: (902) 691-6616
                 </a>
               </div> */}
 
@@ -276,8 +276,8 @@ export default function SepticServicesPage() {
               {/* <Link href='/quote?service=septic' className={styles.ctaPrimary}>
                 Get Your Quote
               </Link> */}
-              <a href='tel:+1-902-555-0123' className={styles.ctaSecondary}>
-                📞 Call (902) 555-0123
+              <a href='tel:+1-902-691-6616' className={styles.ctaSecondary}>
+                📞 Call (902) 691-6616
               </a>
             </div>
           </div>

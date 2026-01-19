@@ -1,17 +1,17 @@
-import { Metadata } from "next";
-import Link from "next/link";
-import styles from "./privacy.module.css";
+import { Metadata } from 'next';
+import Link from 'next/link';
+import styles from './privacy.module.css';
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Courtesy Flushers",
+  title: 'Privacy Policy | Courtesy Flushers',
   description:
-    "Privacy Policy for Courtesy Flushers - Learn how we collect, use, and protect your personal information when you use our portable toilet, plumbing, and septic services.",
+    'Privacy Policy for Courtesy Flushers - Learn how we collect, use, and protect your personal information when you use our portable toilet, plumbing, and septic services.',
 };
 
 export default function PrivacyPolicyPage() {
   return (
     <div className={styles.privacyPage}>
-      <div className="container">
+      <div className='container'>
         {/* Page Header */}
         <header className={styles.pageHeader}>
           <h1>Privacy Policy</h1>
@@ -256,8 +256,8 @@ export default function PrivacyPolicyPage() {
               <div className={styles.contactItem}>
                 <strong>Phone:</strong>
                 <p>
-                  <a href="tel:+1-902-555-0123" className={styles.contactLink}>
-                    (902) 555-0123
+                  <a href='tel:+1-902-691-6616' className={styles.contactLink}>
+                    (902) 691-6616
                   </a>
                 </p>
               </div>
@@ -265,7 +265,7 @@ export default function PrivacyPolicyPage() {
                 <strong>Email:</strong>
                 <p>
                   <a
-                    href="mailto:privacy@courtesyflushers.ca"
+                    href='mailto:privacy@courtesyflushers.ca'
                     className={styles.contactLink}
                   >
                     privacy@courtesyflushers.ca
@@ -279,13 +279,13 @@ export default function PrivacyPolicyPage() {
         {/* Navigation */}
         <nav className={styles.pageNavigation}>
           <div className={styles.navLinks}>
-            <Link href="/terms" className={styles.navLink}>
+            <Link href='/terms' className={styles.navLink}>
               Terms of Service
             </Link>
-            <Link href="/contact" className={styles.navLink}>
+            <Link href='/contact' className={styles.navLink}>
               Contact Us
             </Link>
-            <Link href="/" className={styles.navLink}>
+            <Link href='/' className={styles.navLink}>
               Return Home
             </Link>
           </div>

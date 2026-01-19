@@ -33,7 +33,7 @@ export default function QuotePage() {
   const handleInputChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
-    >
+    >,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -130,7 +130,7 @@ export default function QuotePage() {
                     onChange={handleInputChange}
                     required
                     className={styles.formInput}
-                    placeholder='(902) 555-0123'
+                    placeholder='(902) 691-6616'
                   />
                 </div>
 
@@ -284,7 +284,7 @@ export default function QuotePage() {
               {submitStatus === 'error' && (
                 <div className={styles.errorMessage}>
                   <h3>Something went wrong</h3>
-                  <p>Please try again or call us directly at (902) 555-0123.</p>
+                  <p>Please try again or call us directly at (902) 691-6616.</p>
                 </div>
               )}
             </form>
@@ -312,8 +312,8 @@ export default function QuotePage() {
               <p>
                 Call us directly for same-day quotes and emergency services.
               </p>
-              <a href='tel:+1-902-555-0123' className={styles.phoneButton}>
-                (902) 555-0123
+              <a href='tel:+1-902-691-6616' className={styles.phoneButton}>
+                (902) 691-6616
               </a>
             </div>
 

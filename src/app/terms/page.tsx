@@ -1,17 +1,17 @@
-import { Metadata } from "next";
-import Link from "next/link";
-import styles from "./terms.module.css";
+import { Metadata } from 'next';
+import Link from 'next/link';
+import styles from './terms.module.css';
 
 export const metadata: Metadata = {
-  title: "Terms of Service | Courtesy Flushers",
+  title: 'Terms of Service | Courtesy Flushers',
   description:
-    "Terms of Service for Courtesy Flushers - Read our terms and conditions for portable toilet rentals, plumbing services, and septic system maintenance across Nova Scotia.",
+    'Terms of Service for Courtesy Flushers - Read our terms and conditions for portable toilet rentals, plumbing services, and septic system maintenance across Nova Scotia.',
 };
 
 export default function TermsOfServicePage() {
   return (
     <div className={styles.termsPage}>
-      <div className="container">
+      <div className='container'>
         {/* Page Header */}
         <header className={styles.pageHeader}>
           <h1>Terms of Service</h1>
@@ -240,10 +240,10 @@ export default function TermsOfServicePage() {
           <section className={styles.section}>
             <h2>Privacy and Data Protection</h2>
             <p>
-              Your privacy is important to us. Please review our{" "}
-              <Link href="/privacy" className={styles.policyLink}>
+              Your privacy is important to us. Please review our{' '}
+              <Link href='/privacy' className={styles.policyLink}>
                 Privacy Policy
-              </Link>{" "}
+              </Link>{' '}
               for information about how we collect, use, and protect your
               personal information.
             </p>
@@ -294,8 +294,8 @@ export default function TermsOfServicePage() {
               <div className={styles.contactItem}>
                 <strong>Phone:</strong>
                 <p>
-                  <a href="tel:+1-902-555-0123" className={styles.contactLink}>
-                    (902) 555-0123
+                  <a href='tel:+1-902-691-6616' className={styles.contactLink}>
+                    (902) 691-6616
                   </a>
                 </p>
               </div>
@@ -303,7 +303,7 @@ export default function TermsOfServicePage() {
                 <strong>Email:</strong>
                 <p>
                   <a
-                    href="mailto:legal@courtesyflushers.ca"
+                    href='mailto:legal@courtesyflushers.ca'
                     className={styles.contactLink}
                   >
                     legal@courtesyflushers.ca
@@ -328,13 +328,13 @@ export default function TermsOfServicePage() {
         {/* Navigation */}
         <nav className={styles.pageNavigation}>
           <div className={styles.navLinks}>
-            <Link href="/privacy" className={styles.navLink}>
+            <Link href='/privacy' className={styles.navLink}>
               Privacy Policy
             </Link>
-            <Link href="/contact" className={styles.navLink}>
+            <Link href='/contact' className={styles.navLink}>
               Contact Us
             </Link>
-            <Link href="/" className={styles.navLink}>
+            <Link href='/' className={styles.navLink}>
               Return Home
             </Link>
           </div>

@@ -78,8 +78,8 @@ export default function Footer() {
             <div className={styles.contactInfo}>
               <div className={styles.contactItem}>
                 <strong>Phone:</strong>
-                <a href='tel:+1-902-555-0123' className={styles.contactLink}>
-                  (902) 555-0123
+                <a href='tel:+1-902-691-6616' className={styles.contactLink}>
+                  (902) 691-6616
                 </a>
               </div>
               <div className={styles.contactItem}>
@@ -107,7 +107,7 @@ export default function Footer() {
               {/* <Link href="/quote" className={styles.quoteButton}>
                 Get Quote
               </Link> */}
-              <a href='tel:+1-902-555-0123' className={styles.callButton}>
+              <a href='tel:+1-902-691-6616' className={styles.callButton}>
                 Call Now
               </a>
             </div>

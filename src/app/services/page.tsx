@@ -129,8 +129,8 @@ export default function ServicesPage() {
             <Link href='/contact' className={styles.ctaPrimary}>
               Contact Our Experts
             </Link>
-            <a href='tel:+1-902-555-0123' className={styles.ctaSecondary}>
-              📞 Call (902) 555-0123
+            <a href='tel:+1-902-691-6616' className={styles.ctaSecondary}>
+              📞 Call (902) 691-6616
             </a>
           </div>
         </section>
