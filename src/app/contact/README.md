@@ -13,7 +13,7 @@ The contact form requires a Resend API key to send emails, which needs to be con
 The contact page now features:
 
 - ✅ **Direct phone contact button** - `tel:` link to (902) 691-6616
-- ✅ **Direct email contact button** - `mailto:` link to info@courtesyflushers.ca
+- ✅ **Direct email contact button** - `mailto:` link to <info@courtesyflushers.ca>
 - ✅ **24/7 availability notice**
 - ✅ **All original contact information** (address, hours, service area)
 - ✅ **Fully functional without any backend configuration**
@@ -80,7 +80,7 @@ from: 'Contact Form <noreply@courtesyflushers.ca>',
 pnpm dev
 ```
 
-Navigate to http://localhost:3000/contact and test the form.
+Navigate to [http://localhost:3000/contact](http://localhost:3000/contact) and test the form.
 
 ## Files Overview
 
